@@ -20,12 +20,12 @@
     "incremental": true,
     "baseUrl": ".", // Set the base directory for imports
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@utils/*": ["src/shared/utils/*"],
+      "@components/*": ["src/presentation/components/*"],
+      "@hooks/*": ["src/presentation/hooks/*"],
+      "@utils/*": ["src/utils/*"],
       "@styles/*": ["src/styles/*"],
-      "@desktop/":["src/presentation/components/desktop"],
-      "@mobile/":["src/presentation/components/mobile"],
+      "@desktop/":["src/presentation/desktop"],
+      "@mobile/":["src/presentation/mobile"],
       "@ui/":["src/presentation/ui"],
       "@chakra-ui/react": ["../../packages/react/src"]
     }

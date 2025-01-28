@@ -35,3 +35,4 @@ export const customConfig = defineConfig({
   },
 });
 
+export const system = createSystem(defaultConfig, customConfig)

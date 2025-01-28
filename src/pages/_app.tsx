@@ -1,8 +1,7 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import { system } from "@chakra-ui/react/dist/types/preset";
-import { ThemeProvider } from "next-themes";
-import { AppProps } from "next/app";
-
+import { ChakraProvider, defaultSystem } from "@chakra-ui/react"
+import { ThemeProvider } from "next-themes"
+import { AppProps } from "next/app"
+import { system } from "src/presentation/ui/theme"
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,5 +10,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </ThemeProvider>
     </ChakraProvider>
-  );
+  )
 }

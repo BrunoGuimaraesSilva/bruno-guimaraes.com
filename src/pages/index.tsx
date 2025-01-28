@@ -1,8 +1,5 @@
-import WithSubnavigation from "src/presentation/components/layout/header";
-
+import Layout from "src/presentation/layout";
 
 export default function Page() {
-  return (<>
-  <WithSubnavigation />;
-  </>)
+  return <Layout children={undefined}></Layout>;
 }
