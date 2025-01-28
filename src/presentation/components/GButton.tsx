@@ -1,16 +1,16 @@
 // src/presentation/ui/components/GButton.tsx
 
 import React from 'react';
-import { Button } from '@chakra-ui/react';
+import { Button, ButtonProps } from '@chakra-ui/react';
 import { useColorModeValue } from '../ui/color-mode';
 
-interface GButtonProps {
-  onClick: () => void;
-  children: React.ReactNode;
+interface GButtonProps extends ButtonProps {
+  onClick?: () => void;
+  children?: React.ReactNode;
   isDisabled?: boolean;
   variant?: "solid" | "outline" | "ghost";
   size?: "sm" | "md" | "lg";
-  color?: string; // New prop for custom color
+  color?: string;
 }
 
 const GButton: React.FC<GButtonProps> = ({
@@ -23,7 +23,7 @@ const GButton: React.FC<GButtonProps> = ({
   ...rest
 }) => {
   const defaultColor = useColorModeValue("background_dark", "#EBF1FC");
-  const buttonColor = color || defaultColor; // Use custom color if provided, otherwise use default
+  const buttonColor = color || defaultColor;
 
   return (
     <Button

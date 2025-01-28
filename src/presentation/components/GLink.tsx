@@ -5,14 +5,12 @@ import { useColorModeValue } from "../ui/color-mode";
 interface GLinkProps extends LinkProps {
   href: string;
   children: React.ReactNode;
-  isExternal?: boolean;
   color?: string;
 }
 
 const GLink: React.FC<GLinkProps> = ({
   href,
   children,
-  isExternal,
   color,
   ...rest
 }) => {
@@ -30,6 +28,7 @@ const GLink: React.FC<GLinkProps> = ({
   return (
     <Link
       href={href}
+      transition="background 0.3s ease"
       color={linkColor}
       _hover={{
         bg: bgDefaultColor,

@@ -1,8 +1,7 @@
 import { NAV_ITEMS } from "src/domain/constant/navItems";
 import { Box, Flex } from "@chakra-ui/react";
 import GLink from "@components/GLink";
-import Image from "next/image";
-import logo from "public/assets/logo.png";
+import Logo from "@components/Glogo";
 
 import {
   ColorModeButton,
@@ -22,7 +21,7 @@ export default function () {
       pb={4}
     >
       <Box flex={1} pt={2}>
-        <Image src={logo} alt="Logo" width="50" height="50" />
+          <Logo width={50} height={50} />
       </Box>
 
       <Flex align={"end"}>
