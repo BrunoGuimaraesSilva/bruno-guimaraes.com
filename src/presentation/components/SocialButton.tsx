@@ -1,22 +1,23 @@
-import { chakra, VisuallyHidden } from "@chakra-ui/react";
+import { chakra, VisuallyHidden, ButtonProps } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { useColorModeValue } from "src/presentation/ui/color-mode";
 
-interface SocialButtonProps {
+interface SocialButtonProps<T = {}> extends ButtonProps {
   children: ReactNode;
   label: string;
   href: string;
+  customProps?: T;
 }
 
-export default function SocialButton({
+export default function SocialButton<T>({
   children,
   label,
-  href,
-}: SocialButtonProps) {
+  customProps,
+  ...rest
+}: SocialButtonProps<T>) {
   return (
     <chakra.button
       as="a"
-      bg={'transparent'}
+      bg="transparent"
       rounded="full"
       w={8}
       h={8}
@@ -25,6 +26,9 @@ export default function SocialButton({
       alignItems="center"
       justifyContent="center"
       transition="background 0.3s ease"
+      _hover={{ bg: "gray.100" }}
+      {...customProps}
+      {...rest}
     >
       <VisuallyHidden>{label}</VisuallyHidden>
       {children}
