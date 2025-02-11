@@ -1,3 +1,5 @@
+import { t } from "i18next";
+
 export interface NavItem {
     label: string;
     href: string;
@@ -5,23 +7,23 @@ export interface NavItem {
   
   export const NAV_ITEMS: Array<NavItem> = [
     {
-      label: "About",
+      label: t('button:about'),
       href: "/about",
     },
     {
-      label: "Contact",
+      label: t('button:contact'),
       href: "/contact",
     },
     {
-      label: "Projects",
+      label: t('button:projects'),      
       href: "/projects",
     },
     {
-      label: "Recipes",
+      label: t('button:recipes'),      
       href: "/recipes",
     },
     {
-      label: "Resume",
+      label: t('button:resume'),      
       href: "/resume",
     },
   ];

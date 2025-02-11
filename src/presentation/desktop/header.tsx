@@ -2,11 +2,12 @@ import { NAV_ITEMS } from "src/domain/constant/navItems";
 import { Box, Flex } from "@chakra-ui/react";
 import GLink from "@components/GLink";
 import Logo from "@components/Glogo";
-
 import {
   ColorModeButton,
   useColorModeValue,
 } from "src/presentation/ui/color-mode";
+
+
 
 export default function () {
   return (

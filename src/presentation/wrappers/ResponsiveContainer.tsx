@@ -1,26 +1,29 @@
 import React from "react";
-import { Box, BoxProps } from "@chakra-ui/react";
+import { Box, BoxProps, Container as ChakraContainer, ContainerProps } from "@chakra-ui/react";
 
-interface ResponsiveContainerProps extends BoxProps {
+interface ResponsiveContainerProps<T extends React.ElementType = typeof ChakraContainer> {
+  as?: T; 
   children: React.ReactNode;
   className?: string;
+  containerProps?: React.ComponentProps<T>; 
 }
 
-const ResponsiveContainer: React.FC<ResponsiveContainerProps> = ({
+const ResponsiveContainer = <T extends React.ElementType = typeof ChakraContainer>({
+  as: Component = ChakraContainer, 
   children,
   className,
-  ...boxProps
-}) => {
+  containerProps,
+}: ResponsiveContainerProps<T>) => {
   return (
-    <Box
+    <Component
       className={className}
-      {...boxProps}
-      maxW={{ base: "100%", md: "80%", lg: "1200px" }} // Adjust widths for different screen sizes
-      mx="auto" // Center container horizontally
-      px={{ base: 4, md: 8 }} // Add padding for responsiveness
+      maxW={{ base: "80%" }} 
+      mx="auto" 
+      px={{ base: 4, md: 8 }} 
+      {...(containerProps as React.ComponentProps<T>)}
     >
       {children}
-    </Box>
+    </Component>
   );
 };
 

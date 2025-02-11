@@ -1,18 +1,15 @@
-import React from "react";
 import { Box } from "@chakra-ui/react";
 import Header from "./header";
 import Footer from "./footer";
+import { GLayoutProps } from "src/interfaces";
+import { useTheme } from 'next-themes'
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
-
+const Layout:GLayoutProps = ({ children }) => {
+  const { resolvedTheme } = useTheme()
   return (
-    <Box>
+    <Box bg={resolvedTheme =="dark" ? "background_dark" : "background_light"}>
       <Header />
-      <Box as="main" mt={8}>
+      <Box as="main" mt={3}>
         {children}
       </Box>
       <Footer/>
