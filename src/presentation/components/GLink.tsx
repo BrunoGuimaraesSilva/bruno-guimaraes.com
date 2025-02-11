@@ -8,6 +8,7 @@ interface GLinkProps<T = {}> extends LinkProps {
   isLoading?: boolean; 
   skeletonProps?: SkeletonProps;
   color?: string;
+  hoverColor?: string;
   customProps?: T;
 }
 
@@ -17,12 +18,15 @@ const GLink = <T,>({
   isLoading = false, 
   skeletonProps,
   color,
+  hoverColor,
   customProps,
   ...rest
 }: GLinkProps<T>) => {
   const bgDefaultColor = useColorModeValue("background_dark", "background_light");
   const defaultColor = useColorModeValue("primary_dark.900", "primary_light.50");
+  const defaultHoverColor = useColorModeValue("primary_light.50", "primary_dark.900")
   const linkColor = color || defaultColor;
+  const hColor = hoverColor || defaultHoverColor
 
   if (isLoading) {
     return (
@@ -42,7 +46,7 @@ const GLink = <T,>({
       color={linkColor}
       _hover={{
         bg: bgDefaultColor,
-        color: useColorModeValue("primary_light.50", "primary_dark.900"),
+        color: hColor,
       }}
       {...customProps}
       {...rest}

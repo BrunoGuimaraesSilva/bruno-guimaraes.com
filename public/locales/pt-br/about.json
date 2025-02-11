@@ -1,0 +1,35 @@
+{
+  "about_SE": {
+    "title": "Conheça Bruno, Engenheiro de Software",
+    "description": "Bruno é um engenheiro de software apaixonado com 5 anos de experiência, destacando-se na combinação de tecnologia e criatividade. Ele é especializado em desenvolvimento front-end e possui vasta experiência trabalhando com TypeScript, PHP e SQL. Sua dedicação em criar experiências de usuário intuitivas o motiva a aprender e se adaptar continuamente no dinâmico cenário da tecnologia."
+  },
+  "about_chef": {
+    "title": "Conheça Bruno, Chef",
+    "description": "Fora do mundo da programação, Bruno explora seu amor pela culinária, onde combina precisão técnica com criatividade artística. Com especialidade em culinária portuguesa e italiana, ele se destaca na criação de pratos saborosos que celebram tradições culinárias ricas. Sua jornada culinária reflete a mesma paixão e atenção aos detalhes que ele traz para a engenharia de software, tornando cada prato uma experiência única e memorável."
+  },
+
+  "stats": {
+    "title": "Estatísticas",
+    "1": {
+      "title": "+5 Anos",
+      "description": "Anos de experiência em desenvolvimento de software"
+    },
+    "2": {
+      "title": "+40 Receitas",
+      "description": "Receitas criadas e compartilhadas com a comunidade, família e amigos."
+    },
+    "3": {
+      "title": "+50 Projetos",
+      "description": "Projetos privados e públicos que utilizam uma variedade diversificada de tecnologias."
+    },
+    "4": {
+      "title": "+10 Tecnologias",
+      "description": "Tecnologias e linguagens de programação utilizadas em projetos anteriores."
+    }
+  },
+  "showcase": {
+    "title": "Showcase",
+    "msp": "My Software Projects",
+    "description": "Discover a dynamic collection of software engineering projects where creativity meets cutting-edge technology."
+  }
+}

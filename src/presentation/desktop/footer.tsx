@@ -5,6 +5,7 @@ import Logo from "@components/Glogo";
 import { NAV_ITEMS } from "src/domain/constant/navItems";
 import SocialButton from "@components/SocialButton";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { t } from "i18next";
 
 export default function FooterDesktop() {
   const bg = useColorModeValue("background_light", "background_dark");
@@ -23,7 +24,7 @@ export default function FooterDesktop() {
           <Stack direction="row" wordSpacing={4}>
             {NAV_ITEMS.map(({ href, label }) => (
               <GLink key={label} href={href} p={3} rounded="md">
-                {label}
+                {t(label)}
               </GLink>
             ))}
           </Stack>

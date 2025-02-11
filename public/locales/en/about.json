@@ -30,11 +30,5 @@
     "title": "Showcase",
     "msp": "My Software Projects",
     "description": "Discover a dynamic collection of software engineering projects where creativity meets cutting-edge technology."
-  },
-  "projects":{
-    "1":{
-      "title":"E-commerce B2B - Gazin Atacado",
-      "description":"Gazin Atacado is a B2B e-commerce platform designed to serve businesses and resellers. The site offers a wide range of products, from appliances to furniture, with exclusive wholesale conditions. Customers can browse a comprehensive catalog, place orders easily, and track their purchases with complete transparency. It's the ideal solution for those seeking speed and efficiency in their operations."
-    }
   }
 }

@@ -3,6 +3,7 @@ import { useColorModeValue } from "src/presentation/ui/color-mode";
 import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
 import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";
+import { t } from "i18next";
 
 const MobileNav = () => {
   const bg = useColorModeValue("background_light", "background_dark");
@@ -34,7 +35,7 @@ const MobileNavItem = ({ label, href }: NavItem) => {
       h="30%"
       w="100%"
     >
-      {label}
+      {t(label)}
     </GLink>
   );
 };

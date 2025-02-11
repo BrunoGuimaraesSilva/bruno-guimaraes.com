@@ -1,7 +1,9 @@
 {
-  "about": "About",
-  "contact": "Contact",
-  "projects": "Projects",
-  "recipes": "Recipes",
-  "resume": "Resume"
+  "route": {
+    "about": "About",
+    "contact": "Contact",
+    "projects": "Projects",
+    "recipes": "Recipes",
+    "resume": "Resume"
+  }
 }

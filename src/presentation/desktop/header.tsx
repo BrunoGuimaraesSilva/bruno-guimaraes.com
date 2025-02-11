@@ -6,7 +6,7 @@ import {
   ColorModeButton,
   useColorModeValue,
 } from "src/presentation/ui/color-mode";
-
+import { t } from "i18next";
 
 
 export default function () {
@@ -43,7 +43,7 @@ export default function () {
                 borderStartEndRadius="0"
                 borderStartStartRadius="0"
               >
-                {label}
+                {t(label)}
               </GLink>
             );
           })}
