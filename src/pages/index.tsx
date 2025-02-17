@@ -6,7 +6,6 @@ import useIsMobile from "@hooks/useIsMobile";
 import { Box, Flex, Heading, Text, SimpleGrid } from "@chakra-ui/react";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 import GSeparator from "@components/GSeparator";
-import GazinAtacadoComponent from "@components/GShowcase";
 import GShowcase from "@components/GShowcase";
 
 interface StatItem {

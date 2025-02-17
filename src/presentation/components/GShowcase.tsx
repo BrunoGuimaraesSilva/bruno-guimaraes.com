@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Button, Flex, Link } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Link } from "@chakra-ui/react";
 import GImage from "./GImage";
 import GLink from "./GLink";
 
@@ -12,11 +12,11 @@ interface GShowcaseProps {
 }
 
 const GShowcase: React.FC<GShowcaseProps> = ({
-  title,
-  description,
-  imageSrc,
-  buttonText,
-  buttonLink,
+  title = "Default Title",
+  description = "This is a default description for the showcase component.",
+  imageSrc = "https://via.placeholder.com/400",
+  buttonText = "Learn More",
+  buttonLink = "#",
 }) => {
   return (
     <Box
@@ -47,15 +47,6 @@ const GShowcase: React.FC<GShowcaseProps> = ({
       </Flex>
     </Box>
   );
-};
-
-// Default Props
-GShowcase.defaultProps = {
-  title: "Default Title",
-  description: "This is a default description for the showcase component.",
-  imageSrc: "https://via.placeholder.com/400",
-  buttonText: "Learn More",
-  buttonLink: "#",
 };
 
 export default GShowcase;

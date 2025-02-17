@@ -23,16 +23,20 @@ export default function () {
         >
           <Flex align="center" justify="space-between" w="100%">
             <Logo width={50} height={50} />
-            <Collapsible.Trigger onClick={handleToggleMenu}>
-              <Icon fontSize="2xl">
-                {menuOpen ? <LuCircleX /> : <LuMenu />}
-              </Icon>
+            <Collapsible.Trigger>
+              <Button onClick={handleToggleMenu}>
+                <Icon fontSize="2xl">
+                  {menuOpen ? <LuCircleX /> : <LuMenu />}
+                </Icon>
+              </Button>
             </Collapsible.Trigger>
           </Flex>
         </Flex>
 
-        <Collapsible.Content height="80vh">
-          <MobileNav />
+        <Collapsible.Content>
+          <Box height="80vh">
+            <MobileNav />
+          </Box>
         </Collapsible.Content>
       </Collapsible.Root>
     </Box>
