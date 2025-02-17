@@ -3,7 +3,6 @@
   "version": "2.0.14",
   "private": true,
   "scripts": {
-    "prebuild": "cp -R src/presentation/pages ./pages",
     "dev": "next",
     "build": "next build",
     "start": "next start",
