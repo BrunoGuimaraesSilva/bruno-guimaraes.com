@@ -11,7 +11,7 @@ import about_en from "public/locales/en/about.json";
 
 
 i18next.init({
-  debug: true,
+  debug: false,
   fallbackLng: 'en',
   resources: {
     en: {

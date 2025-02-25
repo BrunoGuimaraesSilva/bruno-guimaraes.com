@@ -1,7 +1,8 @@
 {
   "about_SE": {
-    "title": "Meet Bruno, Software Engineer",
-    "description": "Bruno is a passionate software engineer with 5 years of experience, thriving on blending technology and creativity. He specializes in front-end development and has extensive experience working with TypeScript, PHP, and SQL. His dedication to crafting intuitive user experiences drives him to continuously learn and adapt in the fast-paced tech landscape."
+    "title": "Meet Bruno",
+    "name": "I'm Bruno Guimarães",
+    "description": ". I began my journey in software development as a full-stack developer, with a strong focus on front-end technologies. I've worked extensively with Next.js and TypeScript, crafting user-friendly applications and optimizing workflows. Originally from Brazil and now based in Dublin, Ireland, I have a solid foundation in mentoring startups and developing applications, where I gained a deep appreciation for clean code and efficient design. I'm always eager to learn new technologies and improve my skills. In my spare time, I enjoy assembling gaming PCs and advising clients on the best components for their gaming setups."
   },
   "about_chef": {
     "title": "Meet Bruno, Chef",
@@ -10,19 +11,23 @@
   "stats": {
     "title": "Statistics",
     "1": {
-      "title": "+5 Years",
+      "title": "Years",
+      "number": 5,
       "description": "Years of experience in software development"
     },
     "2": {
-      "title": "+40 Recipes",
+      "title": "Recipes",
+      "number": 40,
       "description": "Recipes crafted and shared with the community, family, and friends."
     },
     "3": {
-      "title": "+50 Projects",
+      "title": "Projects",
+      "number": 50,
       "description": "Private and public projects that leverage a diverse range of technologies."
     },
     "4": {
-      "title": "+10 Technologies",
+      "title": "Technologies",
+      "number": 10,
       "description": "Technologies and programming languages utilized in past projects."
     }
   },
@@ -32,3 +37,4 @@
     "description": "Discover a dynamic collection of software engineering projects where creativity meets cutting-edge technology."
   }
 }
+
