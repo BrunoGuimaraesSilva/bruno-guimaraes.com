@@ -17,8 +17,8 @@ export const NAV_ITEMS: Array<NavItem> = [
     href: "/projects",
   },
   {
-    label: "button:route:recipes",
-    href: "/recipes",
+    label: "button:route:timeline",
+    href: "/timeline",
   },
   {
     label: "button:route:resume",

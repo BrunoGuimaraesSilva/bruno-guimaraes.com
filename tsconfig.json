@@ -27,7 +27,10 @@
       "@desktop/":["src/presentation/desktop"],
       "@mobile/":["src/presentation/mobile"],
       "@ui/":["src/presentation/ui"],
-      "@chakra-ui/react": ["../../packages/react/src"]
+      "@chakra-ui/react": ["../../packages/react/src"],
+      "@infra/*": ["src/infra/*"],
+      "@domain/*": ["src/domain/*"],
+      "@presentation/*": ["src/presentation/*"]
     }
   },
 

@@ -10,7 +10,11 @@ interface LayoutProps {
 export interface GReact<P = {}> extends React.FC<P> {}
 export interface GLayoutProps extends React.FC<LayoutProps> {}
 
-
+export interface LottieAnimationProps {
+  width?: string;
+  height?: string;
+  loop?: boolean;
+}
 
 
 
