@@ -1,4 +1,5 @@
 import { chakra, VisuallyHidden, ButtonProps } from "@chakra-ui/react";
+import Router from "next/router";
 import { ReactNode } from "react";
 
 interface SocialButtonProps<T = {}> extends ButtonProps {
@@ -12,8 +13,12 @@ export default function SocialButton<T>({
   children,
   label,
   customProps,
+  href,
   ...rest
 }: SocialButtonProps<T>) {
+  const handleClick = () => {
+    window.open(href, "_blank");
+  };
   return (
     <chakra.button
       as="a"
@@ -27,6 +32,7 @@ export default function SocialButton<T>({
       justifyContent="center"
       transition="background 0.3s ease"
       _hover={{ bg: "gray.100" }}
+      onClick={handleClick}
       {...customProps}
       {...rest}
     >

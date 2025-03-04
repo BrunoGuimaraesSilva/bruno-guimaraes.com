@@ -1,0 +1,20 @@
+{
+    "title": "Contact",
+    "description": "Send me an email",
+    "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message"
+    },
+    "error": {
+        "name": "Name is required",
+        "email": "Email is required",
+        "message": "Message is required",
+        "invalidEmail": "Invalid email",
+        "default": "Error",
+        "undo": "Undo"
+    },
+    "button": "Send",
+    "success": "Email sent successfully"
+    
+}

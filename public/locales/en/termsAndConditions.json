@@ -1,0 +1,49 @@
+{
+    "title": "Terms and Conditions",
+    "description": "Welcome to my portfolio website. By accessing or using this site, you agree to the following terms and conditions. If you do not agree with any part of these terms, please do not use this site.",
+    "sections": {
+      "useOfWebsite": {
+        "title": "1. Use of the Site",
+        "items": [
+          "This site is exclusively intended for presenting information about my work, skills, and professional experiences.",
+          "You agree to use the site only for lawful purposes and in a way that does not harm its operation or interfere with the rights of others."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "2. Intellectual Property",
+        "items": [
+          "All content on this site, including text, images, graphics, and other materials, is protected by copyright and belongs exclusively to the site owner, unless otherwise indicated.",
+          "Copying, reproducing, modifying, distributing, or using any content from this site without written permission is prohibited."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "3. Limitation of Liability",    
+        "items": [
+          "This site is provided 'as is', without any warranties of any kind, expressed or implied.",
+            "I am not responsible for any damages or losses resulting from the use or inability to use the site."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "4. Links to Third-Party Sites",
+        "items": [
+          "This site may contain links to third-party sites. I have no control over the content of these sites and am not responsible for any damages or losses related to the use of third-party sites."
+        ]
+      },
+      "changesToTerms": {
+        "title": "5. Changes to Terms and Conditions",
+        "items": [
+          "I reserve the right to update or modify these terms and conditions at any time without prior notice.",
+          "It is your responsibility to review these terms periodically to stay informed about any changes."
+        ]
+      },
+      "governingLaw": {
+        "title": "6. Governing Law",
+        "text": "These terms and conditions are governed by the laws of the country of residence of the site owner."
+      },
+      "contact": {
+        "title": "7. Contact",
+        "text": "For any questions or concerns about these terms, please contact me through the email provided on the site."
+      }
+    }
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "title": "Termos e Condições",
+    "description": "Bem-vindo ao meu site de portfólio. Ao acessar ou usar este site, você concorda com os seguintes termos e condições. Se não concordar com qualquer parte destes termos, por favor, não utilize este site.",
+    "sections": {
+      "useOfWebsite": {
+        "title": "1. Uso do Site",
+        "items": [
+          "Este site é destinado exclusivamente à apresentação de informações sobre meu trabalho, habilidades e experiências profissionais.",
+          "Você concorda em usar o site apenas para fins lícitos e de maneira que não prejudique seu funcionamento ou interfira nos direitos de outros."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "2. Propriedade Intelectual",
+        "items": [
+          "Todo o conteúdo deste site, incluindo texto, imagens, gráficos e outros materiais, está protegido por direitos autorais e pertence exclusivamente ao proprietário do site, salvo indicação em contrário.",
+          "Copiar, reproduzir, modificar, distribuir ou utilizar qualquer conteúdo deste site sem a permissão por escrito é proibido."
+        ]
+      },
+      "limitationOfLiability": {
+        "title": "3. Limitação de Responsabilidade",
+        "items": [
+          "Este site é fornecido 'como está', sem garantias de qualquer tipo, expressas ou implícitas.",
+          "Não sou responsável por quaisquer danos ou perdas resultantes do uso ou da incapacidade de usar o site."
+        ]
+      },
+      "thirdPartyLinks": {
+        "title": "4. Links para Sites de Terceiros",
+        "items": [
+          "Este site pode conter links para sites de terceiros. Não tenho controle sobre o conteúdo desses sites e não sou responsável por quaisquer danos ou perdas relacionados ao uso de sites de terceiros."
+        ]
+      },
+      "changesToTerms": {
+        "title": "5. Alterações nos Termos e Condições",
+        "items": [
+          "Reservo-me o direito de atualizar ou modificar estes termos e condições a qualquer momento, sem aviso prévio.",
+          "É sua responsabilidade revisar periodicamente os termos para se manter informado sobre quaisquer alterações."
+        ]
+      },
+      "governingLaw": {
+        "title": "6. Legislação Aplicável",
+        "text": "Estes termos e condições são regidos pelas leis do país de residência do proprietário do site."
+      },
+      "contact": {
+        "title": "7. Contato",
+        "text": "Para quaisquer dúvidas ou preocupações sobre estes termos, entre em contato comigo através do e-mail fornecido no site."
+      }
+    }
+  }
+  

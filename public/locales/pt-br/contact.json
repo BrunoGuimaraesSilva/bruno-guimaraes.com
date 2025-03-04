@@ -1,0 +1,17 @@
+{
+    "title": "Contato",
+    "description": "Envie-me um e-mail",
+    "form": {
+        "name": "Seu Nome",
+        "email": "Seu E-mail",
+        "message": "Sua Mensagem"
+    },
+    "error": {
+        "name": "Nome é obrigatório",
+        "email": "E-mail é obrigatório",
+        "message": "Mensagem é obrigatória",
+        "invalidEmail": "E-mail inválido"
+    },
+    "button": "Enviar",
+    "success": "E-mail enviado com sucesso"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Privacy Policy",
+  "description": "This Privacy Policy explains how your personal information is collected, used, and shared when you visit or interact with this website.",
+  "sections": {
+    "informationWeCollect": {
+      "title": "1. Information We Collect",
+      "items": [
+        "When you visit this website, certain non-personal information is automatically collected, such as your browser type, IP address, and pages visited.",
+        "If you contact me through the website, I may collect your name, email address, and any other information you provide."
+      ]
+    },
+    "howWeUseYourInformation": {
+      "title": "2. How We Use Your Information",
+      "items": [
+        "To improve the website and enhance user experience.",
+        "To respond to inquiries and provide support.",
+        "To analyze website traffic and trends."
+      ]
+    },
+    "sharingOfInformation": {
+      "title": "3. Sharing of Information",
+      "items": [
+        "I do not sell or rent your personal information to third parties.",
+        "Certain analytics tools (e.g., Google Analytics) may collect aggregated data for performance monitoring."
+      ]
+    },
+    "cookiesAndTrackingTechnologies": {
+      "title": "4. Cookies and Tracking Technologies",
+      "text": "This website may use cookies to enhance user experience. You can manage or disable cookies in your browser settings."
+    },
+    "dataSecurity": {
+      "title": "5. Data Security",
+      "text": "Reasonable measures are taken to protect your data, but no method of transmission over the internet is 100% secure."
+    },
+    "changesToPolicy": {
+      "title": "6. Changes to This Policy",
+      "text": "I may update this Privacy Policy from time to time. Any changes will be reflected on this page."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "text": "If you have any questions regarding this Privacy Policy, please contact me via the email provided on the website."
+    }
+  }
+}

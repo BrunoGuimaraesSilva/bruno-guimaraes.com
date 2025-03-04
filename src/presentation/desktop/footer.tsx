@@ -4,11 +4,13 @@ import GLink from "@components/GLink";
 import Logo from "@components/Glogo";
 import { NAV_ITEMS } from "src/domain/constant/navItems";
 import SocialButton from "@components/SocialButton";
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { t } from "i18next";
+import Link from "next/link";
 
 export default function FooterDesktop() {
   const bg = useColorModeValue("background_light", "background_dark");
+  const borderColor = useColorModeValue("background_dark", "background_light");
 
   return (
     <Box bg={bg}>
@@ -21,22 +23,34 @@ export default function FooterDesktop() {
           py={6}
         >
           <Logo width={50} height={50} />
-          <Stack direction="row" wordSpacing={4}>
+          <Stack direction="row">
             {NAV_ITEMS.map(({ href, label }) => (
               <GLink key={label} href={href} p={3} rounded="md">
                 {t(label)}
               </GLink>
             ))}
           </Stack>
-          <Stack direction="row" wordSpacing={4}>
-            <SocialButton label="Twitter" href="#">
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label="LinkedIn" href="#">
+          <Stack direction="row">
+            <SocialButton
+              label={t("footer:social:linkedin")}
+              href={t("footer:links:linkedin")}
+              aria-label={t("footer:social:linkedin")}
+            >
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label="Instagram" href="#">
+            <SocialButton
+              label={t("footer:social:instagram")}
+              href={t("footer:links:instagram")}
+              aria-label={t("footer:social:instagram")}
+            >
               <FaInstagram />
+            </SocialButton>
+            <SocialButton
+              label={t("footer:social:github")}
+              href={t("footer:links:github")}
+              aria-label={t("footer:social:github")}
+            >
+              <FaGithub />
             </SocialButton>
           </Stack>
         </Flex>
@@ -44,7 +58,7 @@ export default function FooterDesktop() {
         <Box
           borderTopWidth={3}
           borderStyle="solid"
-          borderColor={useColorModeValue("background_dark", "background_light")}
+          borderColor={borderColor}
           py={4}
         >
           <Flex
@@ -54,11 +68,17 @@ export default function FooterDesktop() {
             w="70vw"
             mx="auto"
           >
-            <Text fontSize="sm">Privacy Policy</Text>
-            <Text fontSize="sm">
-              © 2025 Bruno Guimarães da Silva. All rights reserved.
-            </Text>
-            <Text fontSize="sm">Terms and Conditions</Text>
+            <Link href={t("footer:links:privacyPolicy")} passHref>
+              <Text fontSize="sm" _hover={{ textDecoration: "underline" }}>
+                {t("footer:privacyPolicy")}
+              </Text>
+            </Link>
+            <Text fontSize="sm">{t("footer:copyright")}</Text>
+            <Link href={t("footer:links:termsAndConditions")} passHref>
+              <Text fontSize="sm" _hover={{ textDecoration: "underline" }}>
+                {t("footer:termsAndConditions")}
+              </Text>
+            </Link>
           </Flex>
         </Box>
       </Box>

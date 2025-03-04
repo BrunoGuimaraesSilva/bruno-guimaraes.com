@@ -15,6 +15,9 @@ export function ColorModeProvider(props: ColorModeProviderProps) {
   );
 }
 
+export const LIGHT = "light";
+export const DARK = "dark";
+
 export type ColorMode = "light" | "dark";
 
 export interface UseColorModeReturn {

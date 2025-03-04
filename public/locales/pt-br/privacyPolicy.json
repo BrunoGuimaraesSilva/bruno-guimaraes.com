@@ -1,0 +1,44 @@
+{
+  "title": "Política de Privacidade",
+  "description": "Esta Política de Privacidade explica como suas informações pessoais são coletadas, usadas e compartilhadas quando você visita ou interage com este site.",
+  "sections": {
+    "informationWeCollect": {
+      "title": "1. Informações que Coletamos",
+      "items": [
+        "Quando você visita este site, certas informações não pessoais são coletadas automaticamente, como o tipo de navegador, endereço IP e páginas visitadas.",
+        "Se você entrar em contato comigo através do site, posso coletar seu nome, endereço de e-mail e qualquer outra informação fornecida."
+      ]
+    },
+    "howWeUseYourInformation": {
+      "title": "2. Como Usamos Suas Informações",
+      "items": [
+        "Para melhorar o site e aprimorar a experiência do usuário.",
+        "Para responder a consultas e fornecer suporte.",
+        "Para analisar o tráfego e as tendências do site."
+      ]
+    },
+    "sharingOfInformation": {
+      "title": "3. Compartilhamento de Informações",
+      "items": [
+        "Eu não vendo ou alugo suas informações pessoais para terceiros.",
+        "Certas ferramentas de análise (por exemplo, o Google Analytics) podem coletar dados agregados para monitoramento de desempenho."
+      ]
+    },
+    "cookiesAndTrackingTechnologies": {
+      "title": "4. Cookies e Tecnologias de Rastreamento",
+      "text": "Este site pode usar cookies para melhorar a experiência do usuário. Você pode gerenciar ou desabilitar os cookies nas configurações do seu navegador."
+    },
+    "dataSecurity": {
+      "title": "5. Segurança de Dados",
+      "text": "Medidas razoáveis são tomadas para proteger seus dados, mas nenhum método de transmissão pela internet é 100% seguro."
+    },
+    "changesToPolicy": {
+      "title": "6. Alterações Nesta Política",
+      "text": "Eu posso atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão refletidas nesta página."
+    },
+    "contact": {
+      "title": "7. Contato",
+      "text": "Se você tiver alguma dúvida em relação a esta Política de Privacidade, entre em contato comigo através do e-mail fornecido no site."
+    }
+  }
+}

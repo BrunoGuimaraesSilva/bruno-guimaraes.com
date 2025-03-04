@@ -1,0 +1,19 @@
+{
+  "privacyPolicy": "Privacy Policy",
+  "termsAndConditions": "Terms and Conditions",
+  "copyright": "© 2025 Bruno Guimarães da Silva. All rights reserved.",
+  "social": {
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "github": "GitHub"
+  },
+  "links": {
+    "twitter":"https://x.com/lobmax",
+    "linkedin":"https://www.linkedin.com/in/bruno-webdev/",
+    "instagram":"https://www.instagram.com/guimaraes__bruno/",
+    "github":"https://github.com/BrunoGuimaraesSilva",
+    "privacyPolicy":"/privacy-policy",
+    "termsAndConditions":"/terms-and-conditions"
+  }
+}
