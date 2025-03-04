@@ -1,5 +1,4 @@
 import { chakra, VisuallyHidden, ButtonProps } from "@chakra-ui/react";
-import Router from "next/router";
 import { ReactNode } from "react";
 
 interface SocialButtonProps<T = {}> extends ButtonProps {

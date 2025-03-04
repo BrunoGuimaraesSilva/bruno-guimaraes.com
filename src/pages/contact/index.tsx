@@ -8,7 +8,7 @@ import {
   Flex,
   Text,
 } from "@chakra-ui/react";
-import { useForm, FieldValues } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import ResponsiveContainer from "@presentation/wrappers/ResponsiveContainer";
 import {
   LIGHT,

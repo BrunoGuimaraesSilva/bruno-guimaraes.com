@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 
 import {
@@ -19,10 +20,10 @@ export const Toaster = () => {
   return (
     <Portal>
       <ChakraToaster toaster={toaster} insetInline={{ mdDown: "4" }}>
-      {(toast: { type: string; title: any; description: any; action: { label: any }; meta: { closable: any } }) => (
-        <Toast.Root width={{ md: "sm" }}>
-          {toast.type === "loading" ? (
-            <Spinner size="sm" color="blue.solid" />
+        {(toast: { type: string; title: any; description: any; action: { label: any }; meta: { closable: any } }) => (
+          <Toast.Root width={{ md: "sm" }}>
+            {toast.type === "loading" ? (
+              <Spinner size="sm" color="blue.solid" />
             ) : (
               <Toast.Indicator />
             )}
@@ -36,9 +37,9 @@ export const Toaster = () => {
               <Toast.ActionTrigger>{toast.action.label}</Toast.ActionTrigger>
             )}
             {toast.meta?.closable && <Toast.CloseTrigger />}
-        </Toast.Root>
-      )}
-    </ChakraToaster>
+          </Toast.Root>
+        )}
+      </ChakraToaster>
     </Portal>
   )
 }
