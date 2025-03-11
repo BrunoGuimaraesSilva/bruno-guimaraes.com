@@ -1,5 +1,5 @@
 // src/presentation/components/MobileNav.tsx
-import { ColorModeButton, useColorModeValue } from "src/presentation/ui/color-mode";
+import { ColorModeButton } from "src/presentation/ui/color-mode";
 import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
 import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";

@@ -5,7 +5,6 @@ import ready, { t } from "i18next";
 import { RiArrowLeftLine } from "react-icons/ri";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { useColorModeValue } from "@presentation/ui/color-mode";
 
 export default function AboutPage() {
   const router = useRouter();
@@ -39,7 +38,7 @@ export default function AboutPage() {
   if (slugFound === null || !translationsLoaded) {
     return <></>;
   }
-  
+
   return (
     <ResponsiveContainer>
       <GButton
