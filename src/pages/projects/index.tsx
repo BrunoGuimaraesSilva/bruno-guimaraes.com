@@ -15,13 +15,12 @@ interface MenuItem {
   title: string;
   description: string;
   image: string;
-  href:string;
+  href: string;
   technologies: Array<string>;
 }
 
 const menuArray = t("projects:menu", { returnObjects: true }) as MenuItem[];
 
-console.log(menuArray);
 export default function ProjectsPage() {
   return (
     <Box maxW="6xl" mx="auto" py={10} px={6}>

@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  reactStrictMode: false,
   i18n: {
-    locales: ["en-us", "pt-br"],
-    defaultLocale: "en-us",
+    locales: ["en", "pt-br"],
+    defaultLocale: "en",
   },
   experimental: {
     externalDir: true,
