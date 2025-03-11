@@ -10,6 +10,7 @@ export default function () {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleToggleMenu = () => setMenuOpen((prev) => !prev);
 
+  const bgColor = useColorModeValue("background_dark", "background_light");
   return (
     <Box>
       <Collapsible.Root open={menuOpen} unmountOnExit>
@@ -19,14 +20,13 @@ export default function () {
           justify="space-between"
           wrap="wrap"
           padding="1.5rem"
-          bg={useColorModeValue("background_light", "background_dark")}
         >
           <Flex align="center" justify="space-between" w="100%">
             <Logo width={50} height={50} />
             <Collapsible.Trigger>
-              <Button onClick={handleToggleMenu}>
+              <Button bg={bgColor} onClick={handleToggleMenu}>
                 <Icon fontSize="2xl">
-                  {menuOpen ? <LuCircleX /> : <LuMenu />}
+                  {menuOpen ? <LuCircleX /> : <LuMenu/>}
                 </Icon>
               </Button>
             </Collapsible.Trigger>

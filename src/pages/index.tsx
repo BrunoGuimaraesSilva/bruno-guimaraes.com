@@ -1,9 +1,10 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
+import { t } from "i18next";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 
 const About: React.FC = () => {
   return (
-    <ResponsiveContainer containerProps={{ style: { height: "65vh" } }}>
+    <ResponsiveContainer>
       <Box 
         textAlign="center" 
         py={20}
@@ -19,8 +20,7 @@ const About: React.FC = () => {
           maxW="600px"
           mx="auto"
         >
-          Software Engineer based in Dublin, passionate about creating efficient and 
-          user-friendly applications. Specialized in React, TypeScript, and Next.js.
+          {t("common:description")}
         </Text>
       </Box>
     </ResponsiveContainer>

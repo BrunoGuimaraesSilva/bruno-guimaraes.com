@@ -1,24 +1,22 @@
 // src/presentation/components/MobileNav.tsx
-import { useColorModeValue } from "src/presentation/ui/color-mode";
+import { ColorModeButton, useColorModeValue } from "src/presentation/ui/color-mode";
 import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
 import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";
 import { t } from "i18next";
 
 const MobileNav = () => {
-  const bg = useColorModeValue("background_light", "background_dark");
-
   return (
     <Stack
       textAlign="center"
       justifyContent="center"
       h="100%"
-      bg={bg}
       p={4}
     >
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
+      <ColorModeButton/>
     </Stack>
   );
 };

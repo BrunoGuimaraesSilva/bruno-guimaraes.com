@@ -27,7 +27,6 @@ export default function () {
       justify="space-between"
       wrap="wrap"
       padding="1.5rem"
-      bg={useColorModeValue("background_light", "background_dark")}
       pt={0}
       pb={4}
     >

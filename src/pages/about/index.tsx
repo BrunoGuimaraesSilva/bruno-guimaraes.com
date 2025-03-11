@@ -57,7 +57,7 @@ const AboutSection: React.FC = () => {
       <SimpleGrid columns={2} gap="40px">
         {statsArray.map((data, index) => {
           return (
-            <Box key={index} w={"100%"} h={50} borderRadius={5} border={2}>
+            <Box key={index} w={"100%"} borderRadius={5} border={5}>
               <Heading>+<CountUp
                 duration={4}
                 end={data.number}

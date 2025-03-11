@@ -10,7 +10,7 @@ import { MailProvider } from "@presentation/contexts/MailContext";
 function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider value={system}>
-      <ThemeProvider attribute="class" disableTransitionOnChange>
+      <ThemeProvider enableColorScheme attribute="class" disableTransitionOnChange>
         <MailProvider>
           <Layout>
             <Component {...pageProps} />

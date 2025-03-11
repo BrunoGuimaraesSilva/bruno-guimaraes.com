@@ -1,6 +1,7 @@
 import logo from "public/assets/logo.png";
 import { SkeletonCircle } from "src/presentation/ui/skeleton";
 import GImage from "./GImage";
+import Link from "next/link";
 
 interface LogoProps {
   width?: number;
@@ -17,5 +18,16 @@ export default function Logo({
   alt = "Logo",
   fallback = <SkeletonCircle size="10" />,
 }: LogoProps) {
-  return <GImage width={width} height={height} src={src} alt={alt} fallback={fallback} />;
+  return (
+    <Link href={'/'}>
+      <GImage
+        
+        width={width}
+        height={height}
+        src={src}
+        alt={alt}
+        fallback={fallback}
+      />
+    </Link>
+  );
 }

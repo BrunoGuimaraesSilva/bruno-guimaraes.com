@@ -20,10 +20,16 @@ import { useEffect } from "react";
 import { Toaster, toaster } from "@presentation/ui/toaster";
 import { useMail } from "@presentation/contexts/MailContext";
 import LottieAnimation from "@presentation/animation/mail";
+import useIsMobile from "@hooks/useIsMobile";
 
 const ContactPage = () => {
-  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
-  const { sendMail, isSending } = useMail(); 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<FormData>();
+  const { sendMail, isSending } = useMail();
 
   type FormData = {
     name: string;
@@ -49,8 +55,15 @@ const ContactPage = () => {
   }, [errors]);
 
   const { colorMode } = useColorMode();
-  const bgDefaultColor = useColorModeValue("background_dark", "background_light");
-  const defaultColor = useColorModeValue("primary_light.50", "primary_dark.900");
+  const bgDefaultColor = useColorModeValue(
+    "background_dark",
+    "background_light"
+  );
+  const defaultColor = useColorModeValue(
+    "primary_light.50",
+    "primary_dark.900"
+  );
+  const isMobile = useIsMobile();
 
   const inputStyles = {
     bg: "background_light",
@@ -59,7 +72,7 @@ const ContactPage = () => {
   };
 
   return (
-    <ResponsiveContainer containerProps={{ style: { height: "65vh" } }}>
+    <ResponsiveContainer containerProps={{ style: { minHeight: "65vh" } }}>
       <Flex
         w="100%"
         py={10}
@@ -100,7 +113,7 @@ const ContactPage = () => {
               color={defaultColor}
               bg={bgDefaultColor}
               width="full"
-              loading={isSending} 
+              loading={isSending}
               disabled={isSending}
             >
               {t("contact:button")}
@@ -108,8 +121,8 @@ const ContactPage = () => {
           </VStack>
         </Box>
 
-        <Box display="flex" flex={1}>
-          <LottieAnimation width="30%" height="30%" />
+        <Box display="flex" flex={1} width={"full"} height={"full"}>
+          {!isMobile ? <LottieAnimation /> : <></>}
         </Box>
       </Flex>
       <Toaster />
