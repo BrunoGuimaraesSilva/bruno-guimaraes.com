@@ -1,0 +1,30 @@
+{
+  "title": "My Projects",
+  "menu": [
+     {
+      "title": "Gazin Atacado",
+      "href":"gazin_atacado",
+      "description": "A leading wholesale platform offering high-quality products at competitive prices, helping businesses grow through efficient bulk purchases.",
+      "image": "/images/gazin_atacado.png",
+      "technologies": ["Next.js", "TypeScript", "Chakra UI"]
+    }
+  ],
+  "projects": {
+    "gazin_atacado": {
+      "aboutTitle": "My Work at Gazin Atacado",
+      "projectDescription": "For 5 years, I worked on the development of the internal system and e-commerce platform for <strong>Gazin Atacado</strong>. I primarily worked with <strong>React, Next.js, and TypeScript</strong>, focusing on creating efficient and scalable interfaces.",
+      "responsibilitiesTitle": "My Responsibilities",
+      "responsibilitiesDescription": "My main role was to develop and maintain applications that facilitated order management, logistics, and customer support. I was also responsible for implementing performance and accessibility improvements on the platform.",
+      "projectImpactTitle": "Project Impact",
+      "projectImpactDescription": "During my time there, the platform underwent several improvements, resulting in increased operational efficiency and an enhanced user experience, solidifying Gazin Atacado as one of the largest wholesalers in Brazil."
+    },
+    "gazin_atacado1": {
+      "aboutTitle": "My Work at Gazin Atacado",
+      "projectDescription": "For 5 years, I worked on the development of the internal system and e-commerce platform for <strong>Gazin Atacado</strong>. I primarily worked with <strong>React, Next.js, and TypeScript</strong>, focusing on creating efficient and scalable interfaces.",
+      "responsibilitiesTitle": "My Responsibilities",
+      "responsibilitiesDescription": "My main role was to develop and maintain applications that facilitated order management, logistics, and customer support. I was also responsible for implementing performance and accessibility improvements on the platform.",
+      "projectImpactTitle": "Project Impact",
+      "projectImpactDescription": "During my time there, the platform underwent several improvements, resulting in increased operational efficiency and an enhanced user experience, solidifying Gazin Atacado as one of the largest wholesalers in Brazil."
+    }
+  }
+}

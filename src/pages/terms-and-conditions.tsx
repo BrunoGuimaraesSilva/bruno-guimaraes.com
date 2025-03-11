@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
   return (
     <Container maxW="800px" py={10}>
       <Heading as="h2" size="lg" mb={4} textAlign="center">
-        {t("termsAndConditions:title")} {/* Using i18n for title */}
+        {t("termsAndConditions:title")}
       </Heading>
 
       <Text fontSize="sm" textAlign="center" mb={6}>

@@ -1,0 +1,36 @@
+{
+  "title": "Meus Projetos",
+  "menu": {
+    "gazin_atacado": {
+      "title": "Gazin Atacado",
+      "description": "A leading wholesale platform...",
+      "image": "/images/gazin_atacado.png",
+      "technologies": ["Next.js", "TypeScript", "Chakra UI"]
+    },
+    "another_project": {
+      "title": "Another Project",
+      "description": "A different project...",
+      "image": "/images/another_project.png",
+      "technologies": ["React", "Node.js"]
+    }
+  },
+
+  "projects": {
+    "gazin_atacado": {
+      "aboutTitle": "Meu Trabalho na Gazin Atacado",
+      "projectDescription": "Durante 5 anos, atuei no desenvolvimento do sistema interno e da plataforma de e-commerce da <strong>Gazin Atacado</strong>. Trabalhei principalmente com <strong>React, Next.js e TypeScript</strong>, focando na criação de interfaces eficientes e escaláveis.",
+      "responsibilitiesTitle": "Minhas Responsabilidades",
+      "responsibilitiesDescription": "Minha principal função foi desenvolver e manter aplicações que facilitassem a gestão de pedidos, logística e suporte ao cliente. Fui também responsável por implementar melhorias de performance e acessibilidade na plataforma.",
+      "projectImpactTitle": "Impacto do Projeto",
+      "projectImpactDescription": "Durante minha atuação, a plataforma passou por diversas melhorias que resultaram em um aumento na eficiência operacional e melhor experiência do usuário, consolidando a Gazin Atacado como um dos maiores atacadistas do Brasil."
+    },
+    "gazin_atacado1": {
+      "aboutTitle": "Meu Trabalho na Gazin Atacado",
+      "projectDescription": "Durante 5 anos, atuei no desenvolvimento do sistema interno e da plataforma de e-commerce da <strong>Gazin Atacado</strong>. Trabalhei principalmente com <strong>React, Next.js e TypeScript</strong>, focando na criação de interfaces eficientes e escaláveis.",
+      "responsibilitiesTitle": "Minhas Responsabilidades",
+      "responsibilitiesDescription": "Minha principal função foi desenvolver e manter aplicações que facilitassem a gestão de pedidos, logística e suporte ao cliente. Fui também responsável por implementar melhorias de performance e acessibilidade na plataforma.",
+      "projectImpactTitle": "Impacto do Projeto",
+      "projectImpactDescription": "Durante minha atuação, a plataforma passou por diversas melhorias que resultaram em um aumento na eficiência operacional e melhor experiência do usuário, consolidando a Gazin Atacado como um dos maiores atacadistas do Brasil."
+    }
+  }
+}

@@ -9,7 +9,7 @@ import { useColorModeValue } from "../ui/color-mode";
 import NextLink from "next/link"
 
 interface GLinkProps<T = {}> extends LinkProps {
-  href: string;
+  href?: string;
   children: React.ReactNode;
   isLoading?: boolean;
   skeletonProps?: SkeletonProps;
@@ -19,7 +19,7 @@ interface GLinkProps<T = {}> extends LinkProps {
 }
 
 const GLink = <T,>({
-  href,
+  href = '',
   children,
   isLoading = false,
   skeletonProps,

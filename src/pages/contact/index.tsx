@@ -29,6 +29,7 @@ const ContactPage = () => {
     formState: { errors },
     reset,
   } = useForm<FormData>();
+  
   const { sendMail, isSending } = useMail();
 
   type FormData = {

@@ -6,7 +6,7 @@ interface GButtonProps<T = {}> extends ButtonProps {
   onClick?: () => void;
   children?: React.ReactNode;
   isDisabled?: boolean;
-  isLoading?: boolean; 
+  isLoading?: boolean;
   skeletonProps?: SkeletonProps;
   variant?: "solid" | "outline" | "ghost";
   size?: "sm" | "md" | "lg";
@@ -18,7 +18,7 @@ const GButton = <T,>({
   onClick,
   children,
   isDisabled,
-  isLoading = false, 
+  isLoading = false,
   skeletonProps,
   variant = "solid",
   size = "md",
@@ -33,8 +33,8 @@ const GButton = <T,>({
     return (
       <Skeleton
         height={size === "sm" ? "32px" : size === "md" ? "40px" : "48px"}
-        width="100px" 
-        borderRadius="md" 
+        width="100px"
+        borderRadius="md"
         {...skeletonProps}
       />
     );
@@ -50,7 +50,10 @@ const GButton = <T,>({
       size={size}
       {...customProps}
       {...rest}
-      _hover={{ bg: useColorModeValue("primary_dark.700", "primary_light.300") }}
+      _hover={{
+        bg: useColorModeValue("primary_dark.700", "background_light"),
+        color: useColorModeValue("primary_light.50", "primary_dark.900"),
+      }}
     >
       {children}
     </Button>

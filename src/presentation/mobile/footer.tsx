@@ -1,4 +1,4 @@
-import { Container, Flex, Stack, Text } from "@chakra-ui/react";
+import { Container, Flex, Text } from "@chakra-ui/react";
 import Logo from "@components/Glogo";
 import GSeparator from "@components/GSeparator";
 
