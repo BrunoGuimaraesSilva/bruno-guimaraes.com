@@ -1,3 +1,6 @@
 {
-  "description":"Software Engineer based in Dublin, passionate about creating efficient and user-friendly applications. Specialized in React, TypeScript, and Next.js."
+  "description": "Software Engineer based in Dublin, passionate about creating efficient and user-friendly applications. Specialized in React, TypeScript, and Next.js.",
+  "resume": {
+    "error": "PDF not found, please try again later"
+  }
 }
