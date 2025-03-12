@@ -24,6 +24,9 @@ import contact_en from "src/locales/en/contact.json";
 import projects_ptbr from "src/locales/pt-br/projects.json";
 import projects_en from "src/locales/en/projects.json";
 
+import timeline_en from "src/locales/en/timeline.json"
+import timeline_ptbr from "src/locales/pt-br/timeline.json"
+
 import LanguageDetector from "i18next-browser-languagedetector";
 import I18NextHttpBackend from "i18next-http-backend";
 
@@ -46,6 +49,7 @@ i18next
         termsAndConditions: termsAndConditions_en,
         contact: contact_en,
         projects: projects_en,
+        timeline: timeline_en
       },
       ptbr: {
         common: common_ptbr,
@@ -56,6 +60,8 @@ i18next
         termsAndConditions: termsAndConditions_ptbr,
         contact: contact_ptbr,
         projects: projects_ptbr,
+        timeline: timeline_ptbr
+
       },
     },
   });

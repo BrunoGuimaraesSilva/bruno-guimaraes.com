@@ -1,0 +1,25 @@
+{
+  "title": "Minha Jornada Profissional e Educacional 🚀",
+  "events": [
+    {
+      "title": "Engenheiro de Software - GazinTech",
+      "date": "Março de 2019 - Maio de 2024",
+      "description": "Desenvolvi e mantive aplicações front-end escaláveis usando React.js, Next.js e TypeScript. Liderei a migração de uma aplicação legada em PHP para React."
+    },
+    {
+      "title": "Pós-graduação em Arquitetura de Software e Go",
+      "date": "Maio de 2024 - Presente",
+      "description": "Atualmente cursando uma pós-graduação no FullCycle College of Technology."
+    },
+    {
+      "title": "Trinity ISE I + Trinity ISE II",
+      "date": "Junho de 2024 - Fevereiro de 2025",
+      "description": "Matriculado no programa de inglês da The International School of English, Dublin."
+    },
+    {
+      "title": "Bacharelado em Tecnologia de Sistemas para Internet",
+      "date": "Fevereiro de 2020 - Dezembro de 2022",
+      "description": "Concluí o bacharelado na Faculdade Alfa Umuarama, com foco no desenvolvimento e análise de software."
+    }
+  ]
+}

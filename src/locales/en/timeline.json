@@ -1,0 +1,25 @@
+{
+  "title": " My Career & Education Journey 🚀",
+  "events": [
+    {
+      "title": "Software Engineer - GazinTech",
+      "date": "March 2019 - May 2024",
+      "description": "Developed and maintained scalable front-end applications using React.js, Next.js, and TypeScript. Led the migration of a legacy PHP application to React."
+    },
+    {
+      "title": "Postgraduate in Software Architecture and Go",
+      "date": "May 2024 - Present",
+      "description": "Currently pursuing a postgraduate degree at FullCycle College of Technology."
+    },
+    {
+      "title": "Trinity ISE I + Trinity ISE II",
+      "date": "June 2024 - February 2025",
+      "description": "Enrolled in an English language program at The International School of English, Dublin."
+    },
+    {
+      "title": "Bachelor's Degree in Internet Systems Technology",
+      "date": "February 2020 - December 2022",
+      "description": "Completed bachelor's degree at Faculdade Alfa Umuarama, focusing on software development and analysis."
+    }
+  ]
+}
