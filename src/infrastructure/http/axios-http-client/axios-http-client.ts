@@ -1,17 +1,31 @@
-import { HttpPostClient, HttpPostParams, HttpResponse, HttpStatusCode } from '../../../data/protocols/http';
-import axios from 'axios';
+import axios, { AxiosInstance } from 'axios';
+import { HttpPostClient, HttpPostParams, HttpResponse, HttpStatusCode } from 'src/data/protocols/http';
 
 export class AxiosHttpClient implements HttpPostClient<any, any> {
-	async post(params: HttpPostParams<any>): Promise<HttpResponse<any>> {
-		let httpResponse;
-		try {
-			httpResponse = await axios.post(params.url, params.body);
-		} catch (error) {
-			httpResponse = {
-				status: HttpStatusCode.notFound,
-				body: 'Credenciais invalidas',
-			};
-		}
-		return httpResponse;
-	}
+  private readonly axiosInstance: AxiosInstance;
+
+  constructor() {
+    this.axiosInstance = axios.create({
+      baseURL: process.env.NEXT_PUBLIC_API_URL, // Dynamically set base URL
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+  }
+
+  async post(params: HttpPostParams<any>): Promise<HttpResponse<any>> {
+    try {
+      const response = await this.axiosInstance.post(params.url, params.body);
+      return {
+        status: response.status,
+        body: response.data,
+      };
+    } catch (error: any) {
+      console.error('Axios error:', error);
+      return {
+        status: error.response?.status || HttpStatusCode.serverError,
+        body: error.response?.data || 'An error occurred',
+      };
+    }
+  }
 }
