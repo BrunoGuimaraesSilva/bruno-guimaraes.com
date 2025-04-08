@@ -27,29 +27,29 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Open Graph (WhatsApp, Facebook, LinkedIn) */}
-        <meta property="og:title" content={`$Bruno Guimarães`} />
+        <meta property="og:title" content={`Bruno Guimarães`} />
         <meta
           property="og:description"
           content="Full-Stack Developer with expertise in TypeScript, PHP and a growing love for Go. Explore my portfolio and projects."
         />
         <meta
           property="og:image"
-          content="https://bruno-guimaraes.com/preview.png"
+          content="https://homolog.bruno-guimaraes.com/assets/preview.png"
         />
         <meta property="og:url" content="https://bruno-guimaraes.com" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`Bruno Guimarães`} />
         <meta
           name="twitter:description"
           content="Explore the work of Bruno Guimarães – Full-Stack Developer focused on TypeScript, PHP, and learning Go."
-        /> */}
-        {/* <meta
+        />
+        <meta
           name="twitter:image"
-          content="https://bruno-guimaraes.com/preview.png"
-        /> */}
+          content="https://homolog.bruno-guimaraes.com/assets/preview.png"
+        />
       </Head>
 
       <ChakraProvider value={system}>
