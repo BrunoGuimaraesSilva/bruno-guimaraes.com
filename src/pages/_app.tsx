@@ -7,7 +7,7 @@ import { appWithTranslation } from "next-i18next";
 import "../infrastructure/i18n/i18n";
 import { MailProvider } from "@presentation/contexts/MailContext";
 import Head from "next/head";
-
+import Script from "next/script";
 import { usePageTitle } from "@hooks/usePageTitle";
 
 function App({ Component, pageProps }: AppProps) {
@@ -15,6 +15,19 @@ function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-XN3Y21K35C"
+        strategy="afterInteractive"
+        async
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XN3Y21K35C');
+  `}
+      </Script>
       <Head>
         <title>{title} | Bruno Guimarães</title>
         <meta
