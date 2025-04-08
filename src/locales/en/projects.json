@@ -1,30 +1,39 @@
 {
   "title": "My Projects",
   "menu": [
-     {
-      "title": "Gazin Atacado",
-      "href":"gazin_atacado",
-      "description": "A leading wholesale platform offering high-quality products at competitive prices, helping businesses grow through efficient bulk purchases.",
-      "image": "/images/gazin_atacado.png",
+    {
+      "title": "B2B - Gazin Atacado",
+      "href": "gazin_atacado_b2b",
+      "description": "A B2B e-commerce platform focused on wholesale sales. Contributed to major improvements by designing interfaces, building reusable components, implementing business rules, and optimizing the sales pipeline.",
+      "image": "/assets/gazin_atacado_b2b.png",
       "technologies": ["Next.js", "TypeScript", "Chakra UI"]
+    },
+    {
+      "title": "ERP – Gazin Atacado",
+      "href": "gazin_atacado_erp",
+      "description": "A comprehensive wholesale ERP platform supporting sales operations and data-driven decisions through dynamic reporting tools. Played a key role in system maintenance and enhancements, ensuring performance, reliability, and a seamless experience for business users.",
+      "image": "/assets/gazin_atacado_erp.png",
+      "technologies": ["PHP", "Ext.js", "SQL"]
     }
   ],
   "projects": {
-    "gazin_atacado": {
-      "aboutTitle": "My Work at Gazin Atacado",
-      "projectDescription": "For 5 years, I worked on the development of the internal system and e-commerce platform for <strong>Gazin Atacado</strong>. I primarily worked with <strong>React, Next.js, and TypeScript</strong>, focusing on creating efficient and scalable interfaces.",
+    "gazin_atacado_b2b": {
+      "aboutTitle": "B2B - Gazin Atacado",
+      "projectDescription": "From 2022 to 2024, I was part of the team that built the B2B e-commerce platform for Gazin Atacado from the ground up. I worked with React, Next.js, and TypeScript on the frontend, while also contributing to backend development and system architecture during the project's early stages.",
       "responsibilitiesTitle": "My Responsibilities",
-      "responsibilitiesDescription": "My main role was to develop and maintain applications that facilitated order management, logistics, and customer support. I was also responsible for implementing performance and accessibility improvements on the platform.",
+      "responsibilitiesDescription": "Initially, I was responsible for adapting business and sales rules from the legacy Sabium system and helped define the architectural foundations of the platform. I created scalable components, implemented business logic, enhanced the sales pipeline, and participated in key design and architectural decisions alongside the team.",
       "projectImpactTitle": "Project Impact",
-      "projectImpactDescription": "During my time there, the platform underwent several improvements, resulting in increased operational efficiency and an enhanced user experience, solidifying Gazin Atacado as one of the largest wholesalers in Brazil."
+      "image": "/assets/gazin_atacado_b2b.png",
+      "projectImpactDescription": "My involvement from the beginning helped ensure a solid architectural base and a smooth user experience. The result was a modern and efficient B2B solution that streamlined wholesale operations and reinforced Gazin Atacado's position as a market leader."
     },
-    "gazin_atacado1": {
-      "aboutTitle": "My Work at Gazin Atacado",
-      "projectDescription": "For 5 years, I worked on the development of the internal system and e-commerce platform for <strong>Gazin Atacado</strong>. I primarily worked with <strong>React, Next.js, and TypeScript</strong>, focusing on creating efficient and scalable interfaces.",
+    "gazin_atacado_erp": {
+      "aboutTitle": "Gazin Atacado ERP – From Legacy Maintenance to Microservices Migration",
+      "projectDescription": "Over 4 years, I worked on the ERP system for Gazin Atacado, a mission-critical platform supporting wholesale operations. The system was built using PHP (5.2, 7.4, 8.1), JavaScript, and Ext JS, where I began by maintaining and improving the legacy codebase.",
       "responsibilitiesTitle": "My Responsibilities",
-      "responsibilitiesDescription": "My main role was to develop and maintain applications that facilitated order management, logistics, and customer support. I was also responsible for implementing performance and accessibility improvements on the platform.",
+      "responsibilitiesDescription": "Initially focused on maintaining legacy modules, I later became involved in a large-scale migration effort that started in mid-2023. I helped update the entire system by introducing new methods, applying Clean Architecture principles, and adopting microservices best practices to ensure scalability and code quality across services.",
       "projectImpactTitle": "Project Impact",
-      "projectImpactDescription": "During my time there, the platform underwent several improvements, resulting in increased operational efficiency and an enhanced user experience, solidifying Gazin Atacado as one of the largest wholesalers in Brazil."
+      "projectImpactDescription": "My work helped stabilize the legacy ERP system while setting the foundation for a modern, service-oriented architecture. This transition improved maintainability, scalability, and development velocity—empowering Gazin Atacado to continue growing with a stronger, future-proof tech stack.",
+      "image": "/assets/gazin_atacado_erp.png"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "about_SE": {
     "title": "Meet Bruno",
-    "name": "I'm Bruno Guimarães",
-    "description": ". I began my journey in software development as a full-stack developer, with a strong focus on front-end technologies. I've worked extensively with Next.js and TypeScript, crafting user-friendly applications and optimizing workflows. Originally from Brazil and now based in Dublin, Ireland, I have a solid foundation in mentoring startups and developing applications, where I gained a deep appreciation for clean code and efficient design. I'm always eager to learn new technologies and improve my skills. In my spare time, I enjoy assembling gaming PCs and advising clients on the best components for their gaming setups."
-  },
-  "about_chef": {
-    "title": "Meet Bruno, Chef",
-    "description": "Outside of coding, Bruno explores his love for cooking, where he combines technical precision with artistic flair. With a specialty in Portuguese and Italian cuisine, he excels in creating flavorful dishes that celebrate rich culinary traditions. His culinary journey reflects the same passion and attention to detail that he brings to software engineering, making each dish a unique and memorable experience."
+    "name": "I'm Bruno Guimarães da Silva",
+    "description": [
+      "I'm a software engineer with a passion for building scalable and user-friendly applications. With strong expertise in PHP, Next.js, and TypeScript, I specialize in building efficient solutions and optimizing workflows. Originally from Brazil, I continue to grow as a developer and mentor startups in their technical journeys.",
+      "I’m a problem solver at heart, always looking for creative ways to tackle challenges, whether in backend systems or frontend design. Currently, I’m expanding my skill set as a Go developer, learning and improving every day to build more performant and reliable applications.",
+      "In my free time, I enjoy assembling high-performance gaming PCs, advising clients on the best components for their setups, and cooking up delicious Italian and Portuguese dishes—combining my technical skills with my love for food and gaming!"
+    ]
   },
   "stats": {
     "title": "Statistics",
@@ -14,11 +14,6 @@
       "title": "Years",
       "number": 5,
       "description": "Years of experience in software development"
-    },
-    "2": {
-      "title": "Recipes",
-      "number": 40,
-      "description": "Recipes crafted and shared with the community, family, and friends."
     },
     "3": {
       "title": "Projects",
@@ -31,10 +26,127 @@
       "description": "Technologies and programming languages utilized in past projects."
     }
   },
-  "showcase": {
-    "title": "Showcase",
-    "msp": "My Software Projects",
-    "description": "Discover a dynamic collection of software engineering projects where creativity meets cutting-edge technology."
+  "education": {
+    "title": "Education",
+    "list": [
+      {
+        "degree": "Postgraduate Degree in Advanced Go Development",
+        "institution": "FullCycle College of Technology",
+        "duration": "2024-05 - 2025-04",
+        "level": "EQF Level 7",
+        "description": "Specializing in Go (Golang) for high-performance backend development, this postgraduate course covers advanced topics in systems design, concurrency, and microservices architectures. The focus is on building scalable and efficient backend solutions while adhering to industry best practices."
+      },
+      {
+        "degree": "Bachelor's Degree in Internet Systems Technology",
+        "institution": "Faculdade Alfa Umuarama",
+        "duration": "2020-02 - 2022-12",
+        "description": "During my Bachelor's degree, I developed a strong foundation in internet systems, programming, and software development principles. The curriculum provided a thorough understanding of web technologies, databases, and software engineering practices, equipping me with the knowledge to build scalable and reliable systems."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "description": "With a deep understanding of both frontend and backend technologies, I specialize in building scalable, efficient, and user-friendly applications. My skills are constantly evolving as I explore new frameworks and languages. Here’s a breakdown of my core expertise:",
+    "frontend": {
+      "title": "Frontend Development",
+      "list": [
+        {
+          "name": "Next.js",
+          "description": "Building high-performance, SEO-friendly React applications with server-side rendering and static site generation."
+        },
+        {
+          "name": "TypeScript",
+          "description": "Strong expertise in TypeScript for better code maintainability, type safety, and cleaner code."
+        },
+        {
+          "name": "React",
+          "description": "Extensive experience in developing responsive, interactive user interfaces and optimizing the user experience."
+        },
+        {
+          "name": "Chakra UI",
+          "description": "Leveraging Chakra UI to create flexible and accessible component-based designs."
+        },
+        {
+          "name": "Ext JS",
+          "description": "Experience in building complex enterprise-level web applications with Ext JS, focusing on advanced data grids and UI components."
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend Development",
+      "list": [
+        {
+          "name": "PHP",
+          "description": "Over 5 years of experience with PHP, including versions 5.2, 7.4, and 8.1. Proficient in developing dynamic websites and APIs, and optimizing legacy systems."
+        },
+        {
+          "name": "Go (Golang)",
+          "description": "Currently expanding my skills as a Go developer, focusing on building high-performance and scalable backend services."
+        },
+        {
+          "name": "Microservices Architecture",
+          "description": "Contributed to transitioning legacy monolithic applications to microservices, improving scalability and team collaboration."
+        },
+        {
+          "name": "Clean Architecture",
+          "description": "Strong focus on creating maintainable, scalable, and testable systems using Clean Architecture principles for both backend and frontend."
+        }
+      ]
+    },
+    "optimization": {
+      "title": "Problem Solving & Optimization",
+      "list": [
+        {
+          "name": "Performance Optimization",
+          "description": "Focus on improving application performance, including reducing load times, optimizing database queries, and enhancing the overall user experience."
+        },
+        {
+          "name": "Scalability",
+          "description": "Expertise in designing systems that can scale as demand grows, whether by refactoring monolithic systems into microservices or optimizing backend architectures."
+        },
+        {
+          "name": "Code Quality",
+          "description": "Adherence to industry best practices and a commitment to writing clean, maintainable code. I'm a strong advocate for test-driven development (TDD) and code reviews to maintain high standards."
+        }
+      ]
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "list": [
+        {
+          "name": "AWS",
+          "description": "Experience with AWS services, including EC2, S3, and RDS, for deploying and managing applications in the cloud."
+        },
+        {
+          "name": "Docker",
+          "description": "Utilizing Docker for containerization to ensure consistent environments across development, testing, and production."
+        },
+        {
+          "name": "CI/CD",
+          "description": "Implementing continuous integration and continuous deployment pipelines to automate testing and deployment processes."
+        }
+      ]
+    },
+    "other": {
+      "title": "Other Skills",
+      "list": [
+        {
+          "name": "Agile Methodologies",
+          "description": "Experience working in Agile environments, including Scrum and Kanban, to deliver projects efficiently."
+        },
+        {
+          "name": "Team Leadership",
+          "description": "Proven experience in mentoring teams and leading technical decision-making processes."
+        },
+        {
+          "name": "Collaboration",
+          "description": "Working closely with cross-functional teams (designers, product managers, and other developers) to deliver impactful features and solutions."
+        },
+        {
+          "name": "Adaptability",
+          "description": "Quickly adapting to new technologies and environments, ensuring a smooth transition for teams and products."
+        }
+      ]
+    }
   }
 }
-

@@ -50,7 +50,7 @@ export default function AboutPage() {
         <RiArrowLeftLine /> {t("button:goback")}
       </GButton>
       <Image
-        src="/images/gazin-project.png"
+        src={t(`projects:projects:${router.query.slug}.image`)}
         alt={t(`projects:projects:${router.query.slug}.aboutTitle`)}
         borderRadius="lg"
         mb={6}
