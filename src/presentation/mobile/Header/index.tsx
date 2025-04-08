@@ -35,7 +35,7 @@ export default function () {
 
         <Collapsible.Content>
           <Box height="80vh">
-            <MobileNav />
+            <MobileNav handleNavItemClick={handleToggleMenu}/>
           </Box>
         </Collapsible.Content>
       </Collapsible.Root>

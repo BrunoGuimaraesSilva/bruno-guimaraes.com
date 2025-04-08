@@ -5,7 +5,7 @@ import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";
 import { t } from "i18next";
 
-const MobileNav = () => {
+const MobileNav = ({ handleNavItemClick }: { handleNavItemClick: (label: string) => void }) => {
   return (
     <Stack
       textAlign="center"
@@ -14,14 +14,22 @@ const MobileNav = () => {
       p={4}
     >
       {NAV_ITEMS.map((navItem) => (
-        <MobileNavItem key={navItem.label} {...navItem} />
+        <MobileNavItem
+          key={navItem.label}
+          {...navItem}
+          handleClick={handleNavItemClick}
+        />
       ))}
-      <ColorModeButton/>
+      <ColorModeButton />
     </Stack>
   );
 };
 
-const MobileNavItem = ({ label, href }: NavItem) => {
+const MobileNavItem = ({ label, href, handleClick }: NavItem & { handleClick: (label: string) => void }) => {
+  const handleItemClick = () => {
+    handleClick(label);
+  };
+
   return (
     <GLink
       textAlign="center"
@@ -32,6 +40,7 @@ const MobileNavItem = ({ label, href }: NavItem) => {
       href={href}
       h="30%"
       w="100%"
+      onClick={handleItemClick}
     >
       {t(label)}
     </GLink>
