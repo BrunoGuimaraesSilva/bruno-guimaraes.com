@@ -6,7 +6,7 @@ const httpClient = new AxiosHttpClient();
 export const sendEmail = async (emailData: { name: string; email: string; message: string }) => {
   try {
     const response = await httpClient.post({
-      url: '/api/mail/send',
+      url: '/api/send-message',
       body: emailData,
     });
 

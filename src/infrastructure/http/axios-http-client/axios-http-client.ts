@@ -6,9 +6,10 @@ export class AxiosHttpClient implements HttpPostClient<any, any> {
 
   constructor() {
     this.axiosInstance = axios.create({
-      baseURL: process.env.NEXT_PUBLIC_API_URL, // Dynamically set base URL
+      baseURL: process.env.NEXT_PUBLIC_API_URL,
       headers: {
         'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_AUTH_TOKEN}`,
       },
     });
   }
