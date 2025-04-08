@@ -5,8 +5,8 @@ import GImage from "@components/GImage";
 import GSeparator from "@components/GSeparator";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 import SePhoto from "public/assets/SE.png";
-import { EducationItem, SkillItem, StatItem } from "./types";
-import { EducationItemComponent, SkillList, StatItemComponent } from "./components";
+import { EducationItem, SkillItem, StatItem } from "../../presentation/@types/about.types";
+import { EducationItemComponent, SkillList, StatItemComponent } from "@components/about/components";
 
 
 const GRID_COLUMNS = { base: 1, md: 2 };

@@ -1,7 +1,7 @@
 import { FC, memo } from "react";
 import { Box, Heading, Text, List } from "@chakra-ui/react";
 import CountUp from "react-countup";
-import { StatItem, SkillItem, EducationItem } from "./types";
+import { StatItem, SkillItem, EducationItem } from "../../@types/about.types";
 
 export const StatItemComponent: FC<{ data: StatItem }> = memo(({ data }) => (
   <Box 
