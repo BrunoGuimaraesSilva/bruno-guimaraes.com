@@ -4,7 +4,7 @@ import i18n from "i18next";
 
 const LanguageContext = createContext({
   language: "en",
-  setLanguage: (lang: string) => {},
+  setLanguage: (_: string) => {},
 });
 
 interface LanguageProviderProps {
