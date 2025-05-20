@@ -23,9 +23,7 @@
       "technologies": [
         "Go",
         "GraphQL",
-        "PostgreSQL",
-        "Redis",
-        "SSE"
+        "PostgreSQL"
       ]
     }
   ],

@@ -3,15 +3,29 @@ import { ThemeProvider } from "next-themes";
 import { AppProps } from "next/app";
 import Layout from "src/presentation/layout";
 import { system } from "src/presentation/ui/theme";
+import i18n from "i18next";
 import { appWithTranslation } from "next-i18next";
 import "../infrastructure/i18n/i18n";
 import { MailProvider } from "@presentation/contexts/MailContext";
 import Head from "next/head";
 import Script from "next/script";
 import { usePageTitle } from "@hooks/usePageTitle";
+import {
+  LanguageProvider,
+  useLanguage
+} from "@presentation/contexts/LanguageContext";
+import { useEffect } from "react";
+import i18next from "i18next";
+import { useRouter } from "next/router";
 
 function App({ Component, pageProps }: AppProps) {
   const title = usePageTitle();
+  const { language } = useLanguage();
+  const { locale } = useRouter();
+
+  useEffect(() => {
+        i18next.changeLanguage(locale);
+    }, [language, locale]);
 
   return (
     <>
@@ -72,9 +86,11 @@ function App({ Component, pageProps }: AppProps) {
           disableTransitionOnChange
         >
           <MailProvider>
-            <Layout>
-              <Component {...pageProps} />
-            </Layout>
+            <LanguageProvider>
+              <Layout>
+                <Component {...pageProps} />
+              </Layout>
+            </LanguageProvider>
           </MailProvider>
         </ThemeProvider>
       </ChakraProvider>

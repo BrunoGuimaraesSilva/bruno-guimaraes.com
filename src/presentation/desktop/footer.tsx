@@ -7,6 +7,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { t } from "i18next";
 import Link from "next/link";
 import GSeparator from "@components/GSeparator";
+import LanguageSwitcher from "@components/LanguageSwitcher";
 
 export default function FooterDesktop() {
   return (
@@ -42,6 +43,7 @@ export default function FooterDesktop() {
           >
             <FaGithub />
           </SocialButton>
+          <LanguageSwitcher />
         </Stack>
       </Flex>
 

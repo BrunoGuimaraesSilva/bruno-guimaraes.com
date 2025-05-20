@@ -1,13 +1,10 @@
-/** @type {import('next').NextConfig} */
+const { i18n } = require("./next-i18next.config");
+
 module.exports = {
-  useFileSystemPublicRoutes: true,
+  i18n,
   reactStrictMode: false,
-  i18n: {
-    locales: ["en", "pt-br"],
-    defaultLocale: "en",
-  },
   experimental: {
     externalDir: false,
     optimizePackageImports: ["@chakra-ui/react"],
   },
-}
+};

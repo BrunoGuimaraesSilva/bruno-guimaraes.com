@@ -4,7 +4,7 @@ import i18n, { t } from "i18next";
 
 const PDFViewer = () => {
 
-  const document = i18n.language === "en-US" ? "/assets/resume_en.pdf" : "/assets/pt_br.pdf";
+  const document = i18n.language === "en-US" ? "/assets/resume_en.pdf" : "/assets/resume_pt_br.pdf";
   return (
     <ResponsiveContainer containerProps={{ id: "ResumeSection", style: { paddingTop: 35 } }}>
         <Box maxH="63vh" h={500} w="100%">

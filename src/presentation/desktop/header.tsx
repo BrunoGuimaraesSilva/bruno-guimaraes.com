@@ -6,11 +6,12 @@ import {
   ColorModeButton,
   useColorModeValue,
 } from "src/presentation/ui/color-mode";
-import { t } from "i18next";
 import { useRouter } from "next/router";
+import { t } from "i18next";
 
-export default function () {
+export default function Header() {
   const router = useRouter();
+
   const bgDefaultColor = useColorModeValue(
     "background_dark",
     "background_light"
@@ -19,6 +20,7 @@ export default function () {
     "primary_light.50",
     "primary_dark.900"
   );
+
 
   return (
     <Flex
@@ -36,7 +38,7 @@ export default function () {
         <Logo width={50} height={50} />
       </Box>
 
-      <Flex align={"center"}>
+      <Flex align="center">
         <Box
           display="flex"
           width={{ base: "full", md: "auto" }}
@@ -44,29 +46,13 @@ export default function () {
           flexGrow={2}
         >
           {NAV_ITEMS.map(({ href, label }, index) => {
-            const path = href.toLowerCase();
-            const myPath = router.pathname == path;
-            if (myPath) {
-              return (
-                <GLink
-                  key={index}
-                  href={href}
-                  px={8}
-                  py={5}
-                  rounded="md"
-                  borderStartEndRadius="0"
-                  borderStartStartRadius="0"
-                  bg={bgDefaultColor}
-                  color={defaultHoverColor}
-                >
-                  {t(label)}
-                </GLink>
-              );
-            }
+            const currentPath = router.pathname.toLowerCase().replace(/\/$/, "");
+            const linkPath = href.toLowerCase().replace(/\/$/, "");
+
+            const isCurrentPage = currentPath === linkPath;
 
             return (
               <GLink
-                ml={1}
                 key={index}
                 href={href}
                 px={8}
@@ -74,6 +60,9 @@ export default function () {
                 rounded="md"
                 borderStartEndRadius="0"
                 borderStartStartRadius="0"
+                bg={isCurrentPage ? bgDefaultColor : undefined}
+                color={isCurrentPage ? defaultHoverColor : undefined}
+                ml={!isCurrentPage ? 1 : undefined}
               >
                 {t(label)}
               </GLink>
