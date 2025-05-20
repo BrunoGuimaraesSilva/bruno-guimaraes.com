@@ -22,13 +22,15 @@ export default function () {
 
   return (
     <Flex
-      as="nav"
-      align="center"
-      justify="space-between"
-      wrap="wrap"
-      padding="1.5rem"
+      as="header"
+      position="fixed"
+      top="0"
+      width="100%"
+      zIndex="1000"
+      px="1.5rem"
+      pb={5}
       pt={0}
-      pb={4}
+      bgColor={useColorModeValue("white", "black")}
     >
       <Box flex={1} pt={2}>
         <Logo width={50} height={50} />

@@ -73,7 +73,7 @@ const ContactPage = () => {
   };
 
   return (
-    <ResponsiveContainer containerProps={{ style: { minHeight: "65vh" } }}>
+    <ResponsiveContainer containerProps={{ id: "ContactSection", style: { minHeight: "65vh" } }}>
       <Flex
         w="100%"
         py={10}

@@ -1,18 +1,82 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 import { t } from "i18next";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
+import { useEffect, useRef, useCallback } from "react";
+import { animate } from "animejs";
 
 const About: React.FC = () => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  const animateSpans = useCallback(() => {
+    if (!containerRef.current) return;
+
+    const spans = containerRef.current.querySelectorAll("span");
+    if (!spans.length) return;
+
+    animate(spans, {
+      y: [
+        { to: "-2.75rem", ease: "outExpo", duration: 600 },
+        { to: 0, ease: "outBounce", duration: 800, delay: 100 },
+      ],
+      rotate: {
+        from: "-1turn",
+        delay: 0,
+      },
+      delay: (_, i) => i * 50,
+      easing: "inOutCirc",
+    });
+  }, []);
+
+  useEffect(() => {
+    animateSpans();
+  }, [animateSpans]);
+
+  const text = "Bruno Guimarães";
+
   return (
     <ResponsiveContainer>
-      <Box textAlign="center" py={20}>
-        <Heading textStyle="4xl" mb={4}>
-          Bruno Guimarães
-        </Heading>
-        <Text textStyle="sm" maxW="600px" mx="auto">
-          {t("common:description")}
-        </Text>
-      </Box>
+      <Flex
+        position="relative"
+        align="center"
+        justify="flex-start"
+        height={{ base: "auto", md: "400px" }}
+        gap={8}
+        py={20}
+        direction={{ base: "column", md: "row" }}
+      >
+        <Box
+          maxW="400px"
+          zIndex={2}
+          px={4}
+          textAlign={{ base: "center", md: "left" }}
+        >
+          <Box
+            ref={containerRef}
+            onClick={animateSpans}
+            fontSize="3xl"
+            fontWeight="bold"
+            display="flex"
+            flexWrap="wrap"
+            justifyContent={{ base: "center", md: "flex-start" }}
+            gap={1}
+            cursor="pointer"
+          >
+            {text.split("").map((char, index) => (
+              <Text
+                as="span"
+                key={index}
+                display="inline-block"
+                userSelect="none"
+              >
+                {char === " " ? "\u00A0" : char}
+              </Text>
+            ))}
+          </Box>
+          <Text textStyle="sm" mt={4}>
+            {t("common:description")}
+          </Text>
+        </Box>
+      </Flex>
     </ResponsiveContainer>
   );
 };

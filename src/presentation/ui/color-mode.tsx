@@ -20,6 +20,7 @@ export const DARK = "dark";
 
 export type ColorMode = "light" | "dark";
 
+
 export interface UseColorModeReturn {
   colorMode: ColorMode;
   setColorMode: (colorMode: ColorMode) => void;
@@ -38,13 +39,10 @@ export function useColorMode(): UseColorModeReturn {
   };
 }
 
-
 export function useColorModeValue<T>(light: T, dark: T) {
   const { colorMode } = useColorMode();
   return colorMode === "dark" ? dark : light;
 }
-
-
 
 export function ColorModeIcon() {
   const { colorMode } = useColorMode();
@@ -59,9 +57,9 @@ export const ColorModeButton = React.forwardRef<
 >(function ColorModeButton(props, ref) {
   const { toggleColorMode } = useColorMode();
   const bgDefaultColor = useColorModeValue(
-      "background_dark",
-      "background_light"
-    );
+    "background_dark",
+    "background_light"
+  );
   return (
     <ClientOnly fallback={<Skeleton boxSize="8" />}>
       <IconButton

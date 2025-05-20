@@ -1,36 +1,61 @@
 {
   "title": "Meus Projetos",
-  "menu": {
-    "gazin_atacado": {
-      "title": "Gazin Atacado",
-      "description": "A leading wholesale platform...",
-      "image": "/images/gazin_atacado.png",
+  "menu": [
+    {
+      "title": "B2B - Gazin Atacado",
+      "href": "gazin_atacado_b2b",
+      "description": "Plataforma de e-commerce B2B focada em vendas no atacado. Contribuí com melhorias significativas ao projetar interfaces, criar componentes reutilizáveis, implementar regras de negócio e otimizar o funil de vendas.",
+      "image": "/assets/gazin_atacado_b2b.png",
       "technologies": ["Next.js", "TypeScript", "Chakra UI"]
     },
-    "another_project": {
-      "title": "Another Project",
-      "description": "A different project...",
-      "image": "/images/another_project.png",
-      "technologies": ["React", "Node.js"]
-    }
-  },
-
-  "projects": {
-    "gazin_atacado": {
-      "aboutTitle": "Meu Trabalho na Gazin Atacado",
-      "projectDescription": "Durante 5 anos, atuei no desenvolvimento do sistema interno e da plataforma de e-commerce da <strong>Gazin Atacado</strong>. Trabalhei principalmente com <strong>React, Next.js e TypeScript</strong>, focando na criação de interfaces eficientes e escaláveis.",
-      "responsibilitiesTitle": "Minhas Responsabilidades",
-      "responsibilitiesDescription": "Minha principal função foi desenvolver e manter aplicações que facilitassem a gestão de pedidos, logística e suporte ao cliente. Fui também responsável por implementar melhorias de performance e acessibilidade na plataforma.",
-      "projectImpactTitle": "Impacto do Projeto",
-      "projectImpactDescription": "Durante minha atuação, a plataforma passou por diversas melhorias que resultaram em um aumento na eficiência operacional e melhor experiência do usuário, consolidando a Gazin Atacado como um dos maiores atacadistas do Brasil."
+    {
+      "title": "ERP – Gazin Atacado",
+      "href": "gazin_atacado_erp",
+      "description": "Plataforma ERP completa para operações de atacado, com suporte a decisões baseadas em dados por meio de ferramentas dinâmicas de relatórios. Atuei de forma essencial na manutenção e evolução do sistema, garantindo desempenho, confiabilidade e uma experiência fluida para os usuários.",
+      "image": "/assets/gazin_atacado_erp.png",
+      "technologies": ["PHP", "Ext.js", "SQL"]
     },
-    "gazin_atacado1": {
-      "aboutTitle": "Meu Trabalho na Gazin Atacado",
-      "projectDescription": "Durante 5 anos, atuei no desenvolvimento do sistema interno e da plataforma de e-commerce da <strong>Gazin Atacado</strong>. Trabalhei principalmente com <strong>React, Next.js e TypeScript</strong>, focando na criação de interfaces eficientes e escaláveis.",
+    {
+      "title": "BeamBridge – Sistema de Transferência de Arquivos",
+      "href": "beambridge_file_transfer",
+      "description": "Plataforma robusta de transferência de arquivos com suporte a uploads fragmentados, Live Photos do iPhone e acompanhamento em tempo real via SSE e WebSockets. Desenvolvido em Go com arquitetura híbrida Hexagonal–Clean, utiliza GraphQL e REST para uma manipulação de dados escalável e performática.",
+      "image": "/assets/beambridge.png",
+      "technologies": [
+        "Go",
+        "GraphQL",
+        "PostgreSQL",
+        "Redis",
+        "SSE"
+      ]
+    }
+  ],
+  "projects": {
+    "gazin_atacado_b2b": {
+      "aboutTitle": "B2B - Gazin Atacado",
+      "projectDescription": "De 2022 a 2024, fiz parte da equipe que desenvolveu do zero a plataforma de e-commerce B2B da Gazin Atacado. Trabalhei com React, Next.js e TypeScript no frontend, além de contribuir com o backend e a arquitetura do sistema nas fases iniciais do projeto.",
       "responsibilitiesTitle": "Minhas Responsabilidades",
-      "responsibilitiesDescription": "Minha principal função foi desenvolver e manter aplicações que facilitassem a gestão de pedidos, logística e suporte ao cliente. Fui também responsável por implementar melhorias de performance e acessibilidade na plataforma.",
+      "responsibilitiesDescription": "Fui inicialmente responsável por adaptar regras de negócio e de vendas do sistema legado Sabium, além de ajudar a definir a base arquitetural da plataforma. Criei componentes escaláveis, implementei lógica de negócio, otimizei o funil de vendas e participei de decisões importantes de design e arquitetura junto ao time.",
       "projectImpactTitle": "Impacto do Projeto",
-      "projectImpactDescription": "Durante minha atuação, a plataforma passou por diversas melhorias que resultaram em um aumento na eficiência operacional e melhor experiência do usuário, consolidando a Gazin Atacado como um dos maiores atacadistas do Brasil."
+      "image": "/assets/gazin_atacado_b2b.png",
+      "projectImpactDescription": "Minha participação desde o início garantiu uma base arquitetural sólida e uma experiência fluida para o usuário. O resultado foi uma solução B2B moderna e eficiente, que otimizou operações no atacado e reforçou a posição da Gazin Atacado como líder de mercado."
+    },
+    "gazin_atacado_erp": {
+      "aboutTitle": "Gazin Atacado ERP – Da Manutenção Legada à Migração para Microsserviços",
+      "projectDescription": "Ao longo de 4 anos, atuei no sistema ERP da Gazin Atacado, uma plataforma crítica para as operações de atacado. O sistema foi desenvolvido em PHP (5.2, 7.4, 8.1), JavaScript e Ext JS, onde comecei realizando manutenção e melhorias na base de código legada.",
+      "responsibilitiesTitle": "Minhas Responsabilidades",
+      "responsibilitiesDescription": "Inicialmente focado na manutenção de módulos legados, depois participei de um esforço de migração em larga escala iniciado em meados de 2023. Contribuí para a modernização do sistema aplicando princípios da Clean Architecture e boas práticas de microsserviços para garantir escalabilidade e qualidade de código em todos os serviços.",
+      "projectImpactTitle": "Impacto do Projeto",
+      "projectImpactDescription": "Meu trabalho ajudou a estabilizar o ERP legado e preparou o caminho para uma arquitetura moderna orientada a serviços. Essa transição melhorou a manutenibilidade, escalabilidade e velocidade de desenvolvimento — permitindo que a Gazin Atacado continuasse crescendo com uma base tecnológica sólida e preparada para o futuro.",
+      "image": "/assets/gazin_atacado_erp.png"
+    },
+    "beambridge_file_transfer": {
+      "aboutTitle": "BeamBridge – Sistema de Transferência de Arquivos",
+      "projectDescription": "Em 2025, concebi e desenvolvi o BeamBridge, um sistema de transferência de arquivos de alta performance criado em Go, com foco em recursos modernos como uploads fragmentados, suporte a Live Photos do iPhone e feedback em tempo real durante o envio. O projeto foi desenvolvido como um showcase de portfólio para demonstrar minha capacidade em design de arquitetura e desenvolvimento backend.",
+      "responsibilitiesTitle": "Minhas Responsabilidades",
+      "responsibilitiesDescription": "Estruturei o sistema com uma abordagem híbrida entre Arquitetura Hexagonal e Clean Architecture, desenvolvi todo o backend em Go, implementei GraphQL para as operações principais e REST para o upload de arquivos. Usei Redis para gerenciamento de estado, construí acompanhamento em tempo real com SSE e WebSockets, e contêinerizei a aplicação com Docker para facilitar o desenvolvimento e a implantação.",
+      "projectImpactTitle": "Destaques do Projeto",
+      "image": "/assets/beambridge.png",
+      "projectImpactDescription": "O BeamBridge demonstra minha habilidade em projetar sistemas backend escaláveis com tecnologias modernas. Mostra minha experiência prática com comunicação em tempo real, performance na manipulação de arquivos e design modular orientado a domínio – aspectos fundamentais de um portfólio sólido em engenharia backend."
     }
   }
 }

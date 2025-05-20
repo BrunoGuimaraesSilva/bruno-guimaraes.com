@@ -27,7 +27,7 @@ export default function ProjectsPage() {
   const { colorMode } = useColorMode();
 
   return (
-    <ResponsiveContainer>
+    <ResponsiveContainer containerProps={{ id: "ProjectsSection", style: { paddingTop: 50 } }}>
       <Heading as="h1" size="xl" textAlign="center" mb={6}>
         {t("projects:title")}
       </Heading>
@@ -53,6 +53,7 @@ export default function ProjectsPage() {
                 src={project.image}
                 alt={project.title}
                 borderRadius="md"
+                maxH={300}
                 mb={4}
               />
               <VStack align="start">

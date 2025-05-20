@@ -3,9 +3,10 @@
     "title": "Meet Bruno",
     "name": "I'm Bruno Guimarães da Silva",
     "description": [
-      "I'm a software engineer with a passion for building scalable and user-friendly applications. With strong expertise in PHP, Next.js, and TypeScript, I specialize in building efficient solutions and optimizing workflows. Originally from Brazil, I continue to grow as a developer and mentor startups in their technical journeys.",
-      "I’m a problem solver at heart, always looking for creative ways to tackle challenges, whether in backend systems or frontend design. Currently, I’m expanding my skill set as a Go developer, learning and improving every day to build more performant and reliable applications.",
-      "In my free time, I enjoy assembling high-performance gaming PCs, advising clients on the best components for their setups, and cooking up delicious Italian and Portuguese dishes—combining my technical skills with my love for food and gaming!"
+      "I'm a passionate software engineer dedicated to building scalable, high-quality applications that deliver real impact. With deep expertise in PHP, Next.js, and TypeScript, I specialize in crafting robust backend systems and seamless user experiences, always focused on performance, maintainability, and clean architecture.",
+      "Originally from Brazil and now expanding my global perspective through international experience in Ireland, I actively mentor startups helping them define technical strategies, optimize workflows, and build resilient engineering foundations.",
+      "Driven by curiosity and problem-solving, I thrive in tackling complex challenges across the stack. I'm currently advancing my skills in Go, focusing on high-performance backend development and cloud-native architecture to push the limits of what's possible in modern software.",
+      "Outside of tech, I combine creativity and precision in hobbies like assembling custom gaming PCs, advising clients on high-end hardware configurations, and cooking flavorful Italian and Portuguese cuisine. Whether it's building systems or recipes, I bring the same passion for detail, performance, and craft."
     ]
   },
   "stats": {
@@ -32,15 +33,21 @@
       {
         "degree": "Postgraduate Degree in Advanced Go Development",
         "institution": "FullCycle College of Technology",
-        "duration": "2024-05 - 2025-04",
-        "level": "EQF Level 7",
-        "description": "Specializing in Go (Golang) for high-performance backend development, this postgraduate course covers advanced topics in systems design, concurrency, and microservices architectures. The focus is on building scalable and efficient backend solutions while adhering to industry best practices."
+        "duration": "May 2024 – Nov 2024",
+        "level": "EQF Level 7 / NQF Level 9",
+        "description": "Cutting-edge specialization program focused on building high-performance, production-grade backend systems using Go (Golang). The curriculum dives deep into advanced topics such as concurrency patterns, distributed systems, microservices architecture, clean code, observability, and benchmarking. Emphasizes hands-on projects and real-world practices, leveraging tools like Docker, Kubernetes, gRPC, and Protobuf to prepare developers for cloud-native, scalable software architecture. Developed by experts from one of Brazil’s most respected tech education platforms."
       },
       {
         "degree": "Bachelor's Degree in Internet Systems Technology",
         "institution": "Faculdade Alfa Umuarama",
-        "duration": "2020-02 - 2022-12",
-        "description": "During my Bachelor's degree, I developed a strong foundation in internet systems, programming, and software development principles. The curriculum provided a thorough understanding of web technologies, databases, and software engineering practices, equipping me with the knowledge to build scalable and reliable systems."
+        "duration": "Feb 2020 – Dec 2022",
+        "description": "Multidisciplinary program designed to prepare professionals for the full lifecycle of web and internet-based software systems. The course combined theoretical foundations with practical application across software engineering, web development, databases, UX/UI, cybersecurity, and mobile applications. Focused on designing, developing, and managing scalable and secure systems using modern technologies and programming languages. Graduates are equipped to work in development, system analysis, and IT consultancy roles in diverse industries."
+      },
+      {
+        "degree": "Student Exchange Program – English and Cultural Immersion",
+        "institution": "International School of English (ISE), Dublin, Ireland",
+        "duration": "2024 – 2025",
+        "description": "One-year exchange program focused on English fluency, cultural immersion, and global communication. Gained valuable soft skills such as adaptability, teamwork in multicultural environments, and cross-cultural collaboration. Worked part-time and actively participated in local tech meetups, expanding professional network and international perspective."
       }
     ]
   },

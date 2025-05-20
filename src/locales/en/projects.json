@@ -14,6 +14,19 @@
       "description": "A comprehensive wholesale ERP platform supporting sales operations and data-driven decisions through dynamic reporting tools. Played a key role in system maintenance and enhancements, ensuring performance, reliability, and a seamless experience for business users.",
       "image": "/assets/gazin_atacado_erp.png",
       "technologies": ["PHP", "Ext.js", "SQL"]
+    },
+    {
+      "title": "BeamBridge – File Transfer System",
+      "href": "beambridge_file_transfer",
+      "description": "A robust file transfer platform supporting chunked uploads, iPhone Live Photos, and real-time progress tracking via SSE and WebSockets. Built with Go and designed with a hybrid Hexagonal–Clean Architecture, it leverages GraphQL and REST for scalable, performant data handling.",
+      "image": "/assets/beambridge.png",
+      "technologies": [
+        "Go",
+        "GraphQL",
+        "PostgreSQL",
+        "Redis",
+        "SSE"
+      ]
     }
   ],
   "projects": {
@@ -34,6 +47,15 @@
       "projectImpactTitle": "Project Impact",
       "projectImpactDescription": "My work helped stabilize the legacy ERP system while setting the foundation for a modern, service-oriented architecture. This transition improved maintainability, scalability, and development velocity—empowering Gazin Atacado to continue growing with a stronger, future-proof tech stack.",
       "image": "/assets/gazin_atacado_erp.png"
+    },
+    "beambridge_file_transfer": {
+      "aboutTitle": "BeamBridge – File Transfer System",
+      "projectDescription": "In 2025, I designed and developed BeamBridge, a high-performance file transfer system built in Go, focused on modern features like chunked uploads, iPhone Live Photos support, and real-time upload feedback. The project was built as a portfolio showcase to demonstrate architectural design and backend capabilities.",
+      "responsibilitiesTitle": "My Responsibilities",
+      "responsibilitiesDescription": "I architected the system using a hybrid Hexagonal–Clean Architecture approach, handled backend development in Go, implemented GraphQL for core operations and REST for file uploads, and used Redis for state management. I also built real-time progress tracking using SSE and WebSockets, and containerized the system with Docker for smooth development and deployment.",
+      "projectImpactTitle": "Project Highlights",
+      "image": "/assets/beambridge.png",
+      "projectImpactDescription": "BeamBridge showcases my ability to design scalable backend systems with modern tech stacks. It demonstrates hands-on experience with real-time communication, file handling performance, and domain-driven modular design – all key aspects of a strong backend engineering portfolio."
     }
   }
 }
