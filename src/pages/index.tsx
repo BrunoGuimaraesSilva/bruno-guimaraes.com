@@ -3,7 +3,8 @@ import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 import { useEffect, useRef, useCallback } from "react";
 import { animate } from "animejs";
 import i18n from "@i18n";
-
+import GLink from "@components/GLink";
+import { LuExternalLink } from "react-icons/lu";
 const About: React.FC = () => {
   const { t } = i18n;
 
@@ -74,9 +75,21 @@ const About: React.FC = () => {
               </Text>
             ))}
           </Box>
-          <Text textStyle="sm" mt={4}>
+          <br />
+          <Text textStyle="sm">
             {t("common:description")}
           </Text>
+          <br />
+          <Text textStyle="sm">{t("common:aboutProject")}</Text>
+          <GLink
+            target="_blank"
+            href="https://github.com/BrunoGuimaraesSilva/bruno-guimaraes.com"
+            aria-label="GitHub"
+            textStyle="sm"
+          >
+            GitHub.
+           <LuExternalLink />
+          </GLink>
         </Box>
       </Flex>
     </ResponsiveContainer>

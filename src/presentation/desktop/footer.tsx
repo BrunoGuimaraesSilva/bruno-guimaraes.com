@@ -6,7 +6,7 @@ import SocialButton from "@components/SocialButton";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import GSeparator from "@components/GSeparator";
-import {LanguageSwitcher} from "@presentation/ui/LanguageSwitcher";
+import { LanguageSwitcher } from "@presentation/ui/LanguageSwitcher";
 import i18n from "@i18n";
 
 export default function FooterDesktop() {
@@ -27,23 +27,21 @@ export default function FooterDesktop() {
             label={t("footer:social:linkedin")}
             href={t("footer:links:linkedin")}
             aria-label={t("footer:social:linkedin")}
-          >
-            <FaLinkedin />
-          </SocialButton>
+            icon={FaLinkedin}
+          />
           <SocialButton
             label={t("footer:social:instagram")}
             href={t("footer:links:instagram")}
             aria-label={t("footer:social:instagram")}
-          >
-            <FaInstagram />
-          </SocialButton>
+            icon={FaInstagram}
+          />
+
           <SocialButton
             label={t("footer:social:github")}
             href={t("footer:links:github")}
             aria-label={t("footer:social:github")}
-          >
-            <FaGithub />
-          </SocialButton>
+            icon={FaGithub}
+          />
           <LanguageSwitcher />
         </Stack>
       </Flex>
