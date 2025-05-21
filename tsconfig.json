@@ -18,7 +18,7 @@
     "target": "esnext",
     "allowSyntheticDefaultImports": true,
     "incremental": true,
-    "baseUrl": ".", // Set the base directory for imports
+    "baseUrl": ".",
     "paths": {
       "@components/*": ["src/presentation/components/*"],
       "@hooks/*": ["src/presentation/hooks/*"],
@@ -30,7 +30,8 @@
       "@chakra-ui/react": ["../../packages/react/src"],
       "@infra/*": ["src/infrastructure/*"],
       "@domain/*": ["src/domain/*"],
-      "@presentation/*": ["src/presentation/*"]
+      "@presentation/*": ["src/presentation/*"],
+      "@i18n": ["src/infrastructure/i18n/i18n.ts"],
     }
   },
 

@@ -15,14 +15,15 @@ import {
   useColorMode,
   useColorModeValue,
 } from "@presentation/ui/color-mode";
-import { t } from "i18next";
 import { useEffect } from "react";
 import { Toaster, toaster } from "@presentation/ui/toaster";
 import { useMail } from "@presentation/contexts/MailContext";
 import LottieAnimation from "@presentation/animation/mail";
 import useIsMobile from "@hooks/useIsMobile";
+import i18n from "@i18n";
 
 const ContactPage = () => {
+  const { t } = i18n;
   const {
     register,
     handleSubmit,

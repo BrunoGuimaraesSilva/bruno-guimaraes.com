@@ -1,8 +1,9 @@
 import { Box, Heading, Text, List, Container } from "@chakra-ui/react";
-import { t } from "i18next";
+import i18n from "@i18n";
+
 
 const TermsAndConditions = () => {
-
+const { t } = i18n;
   return (
     <Container maxW="800px" py={10}>
       <Heading as="h2" size="lg" mb={4} textAlign="center">

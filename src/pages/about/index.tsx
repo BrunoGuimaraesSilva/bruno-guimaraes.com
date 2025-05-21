@@ -1,16 +1,26 @@
-import { t } from "i18next";
 import { FC, memo } from "react";
 import { Box, Flex, Heading, Text, SimpleGrid } from "@chakra-ui/react";
 import GImage from "@components/GImage";
 import GSeparator from "@components/GSeparator";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 import SePhoto from "public/assets/SE.png";
-import { EducationItem, SkillItem, StatItem } from "../../presentation/@types/about.types";
-import { EducationItemComponent, SkillList, StatItemComponent } from "@components/about/components";
+import {
+  EducationItem,
+  SkillItem,
+  StatItem,
+} from "../../presentation/@types/about.types";
+import {
+  EducationItemComponent,
+  SkillList,
+  StatItemComponent,
+} from "@components/about/components";
 
+import i18n from "@i18n";
 
 const GRID_COLUMNS = { base: 1, md: 2 };
 const IMAGE_SIZE = 250;
+
+const { t } = i18n;
 
 const AboutSection: FC = () => {
   const statsArray = Object.values(

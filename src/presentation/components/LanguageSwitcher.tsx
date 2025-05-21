@@ -1,7 +1,8 @@
 import Image from "next/image";
 import flagEn from "public/assets/flag_en.svg";
 import flagPt from "public/assets/flag_ptbr.svg";
-import i18next from "i18next";
+import i18n from "@i18n";
+
 import { useLanguage } from "@presentation/contexts/LanguageContext";
 import { useRouter } from "next/router";
 
@@ -15,7 +16,7 @@ const LanguageSwitcher = () => {
     setLanguage(language === "en" ? "pt-BR" : "en");
     push({ pathname, query }, asPath, { locale: language === "en" ? "pt-BR" : "en" });
 
-    i18next.changeLanguage(language);
+    i18n.changeLanguage(language);
   };
   return (
     <button

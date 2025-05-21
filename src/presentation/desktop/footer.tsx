@@ -4,12 +4,13 @@ import Logo from "@components/Glogo";
 import { NAV_ITEMS } from "src/domain/constant/navItems";
 import SocialButton from "@components/SocialButton";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { t } from "i18next";
 import Link from "next/link";
 import GSeparator from "@components/GSeparator";
 import LanguageSwitcher from "@components/LanguageSwitcher";
+import i18n from "@i18n";
 
 export default function FooterDesktop() {
+  const { t } = i18n;
   return (
     <Box p={"fixed"} bottom={0} as={"footer"} mx="5%">
       <Flex as="nav" align="center" justify="space-between" wrap="wrap" py={6}>

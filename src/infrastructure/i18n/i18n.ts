@@ -23,6 +23,8 @@ import contact_en from "public/locales/en/contact.json";
 
 import projects_ptbr from "public/locales/pt-BR/projects.json";
 import projects_en from "public/locales/en/projects.json";
+
+
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
@@ -31,10 +33,6 @@ i18next
   .use(initReactI18next)
   .init({
     lng: "en",
-    detection: {
-      order: ["navigator"],
-    },
-    fallbackLng: "en",
     resources: {
       en: {
         common: common_en,
@@ -59,4 +57,7 @@ i18next
     },
   });
 
-export default i18next;
+export default i18next
+
+
+

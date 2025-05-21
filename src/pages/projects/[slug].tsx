@@ -1,19 +1,20 @@
 import { Box, Heading, Text, Image, VStack } from "@chakra-ui/react";
 import GButton from "@components/GButton";
 import ResponsiveContainer from "@presentation/wrappers/ResponsiveContainer";
-import ready, { t } from "i18next";
 import { RiArrowLeftLine } from "react-icons/ri";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import i18n from "@i18n";
+
 
 export default function AboutPage() {
   const router = useRouter();
-
+  const { t, isInitialized } = i18n;
   const [translationsLoaded, setTranslationsLoaded] = useState(false);
   const [slugFound, setSlugFound] = useState<boolean | null>(null);
 
   useEffect(() => {
-    if (ready && router.query.slug) {
+    if (router.query.slug) {
       const translations = t("projects:projects", {
         returnObjects: true,
         returnDetails: true,
@@ -33,7 +34,7 @@ export default function AboutPage() {
         }
       }
     }
-  }, [ready, router.query.slug, t]);
+  }, [isInitialized, router.query.slug, t]);
 
   if (slugFound === null || !translationsLoaded) {
     return <></>;

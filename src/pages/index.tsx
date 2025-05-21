@@ -1,10 +1,12 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
-import { t } from "i18next";
 import ResponsiveContainer from "src/presentation/wrappers/ResponsiveContainer";
 import { useEffect, useRef, useCallback } from "react";
 import { animate } from "animejs";
+import i18n from "@i18n";
 
 const About: React.FC = () => {
+  const { t } = i18n;
+
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   const animateSpans = useCallback(() => {

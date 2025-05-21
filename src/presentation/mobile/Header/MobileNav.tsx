@@ -3,7 +3,7 @@ import { ColorModeButton } from "src/presentation/ui/color-mode";
 import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
 import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";
-import { t } from "i18next";
+import i18n from "@i18n";
 
 const MobileNav = ({ handleNavItemClick }: { handleNavItemClick: (label: string) => void }) => {
   return (
@@ -26,6 +26,7 @@ const MobileNav = ({ handleNavItemClick }: { handleNavItemClick: (label: string)
 };
 
 const MobileNavItem = ({ label, href, handleClick }: NavItem & { handleClick: (label: string) => void }) => {
+  const { t } = i18n;
   const handleItemClick = () => {
     handleClick(label);
   };

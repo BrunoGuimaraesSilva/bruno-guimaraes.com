@@ -11,20 +11,22 @@ import Script from "next/script";
 import { usePageTitle } from "@hooks/usePageTitle";
 import {
   LanguageProvider,
-  useLanguage
+  useLanguage,
 } from "@presentation/contexts/LanguageContext";
 import { useEffect } from "react";
-import i18n from "i18next";
+import i18n from "@i18n";
+
 import { useRouter } from "next/router";
+import { LoadingProvider } from "@presentation/contexts/loadingContext";
 
 function App({ Component, pageProps }: AppProps) {
   const title = usePageTitle();
   const { language } = useLanguage();
   const { locale } = useRouter();
-
+  
   useEffect(() => {
-        i18n.changeLanguage(locale);
-    }, [language, locale]);
+    i18n.changeLanguage(locale);
+  }, [language, locale]);
 
   return (
     <>
@@ -86,9 +88,11 @@ function App({ Component, pageProps }: AppProps) {
         >
           <MailProvider>
             <LanguageProvider>
-              <Layout>
+              <LoadingProvider>
+                <Layout>
                 <Component {...pageProps} />
-              </Layout>
+                </Layout>
+              </LoadingProvider>
             </LanguageProvider>
           </MailProvider>
         </ThemeProvider>

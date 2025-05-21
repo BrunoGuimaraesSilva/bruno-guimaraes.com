@@ -7,9 +7,10 @@ import {
   useColorModeValue,
 } from "src/presentation/ui/color-mode";
 import { useRouter } from "next/router";
-import { t } from "i18next";
+import i18n from "@i18n";
 
 export default function Header() {
+  const { t } = i18n;
   const router = useRouter();
 
   const bgDefaultColor = useColorModeValue(
@@ -20,7 +21,6 @@ export default function Header() {
     "primary_light.50",
     "primary_dark.900"
   );
-
 
   return (
     <Flex

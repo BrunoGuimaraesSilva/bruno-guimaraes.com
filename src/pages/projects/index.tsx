@@ -10,8 +10,8 @@ import {
 } from "@chakra-ui/react";
 import { LIGHT, useColorMode } from "@presentation/ui/color-mode";
 import ResponsiveContainer from "@presentation/wrappers/ResponsiveContainer";
-import { t } from "i18next";
 import Link from "next/link";
+import i18n from "@i18n";
 
 interface MenuItem {
   title: string;
@@ -20,6 +20,7 @@ interface MenuItem {
   href: string;
   technologies: Array<string>;
 }
+  const { t } = i18n;
 
 const menuArray = t("projects:menu", { returnObjects: true }) as MenuItem[];
 
