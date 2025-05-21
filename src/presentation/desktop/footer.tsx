@@ -6,7 +6,7 @@ import SocialButton from "@components/SocialButton";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import GSeparator from "@components/GSeparator";
-import LanguageSwitcher from "@components/LanguageSwitcher";
+import {LanguageSwitcher} from "@presentation/ui/LanguageSwitcher";
 import i18n from "@i18n";
 
 export default function FooterDesktop() {

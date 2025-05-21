@@ -1,18 +1,17 @@
-// src/presentation/components/MobileNav.tsx
 import { ColorModeButton } from "src/presentation/ui/color-mode";
 import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
 import { Stack } from "@chakra-ui/react";
 import GLink from "@components/GLink";
 import i18n from "@i18n";
+import { LanguageSwitcher } from "@presentation/ui/LanguageSwitcher";
 
-const MobileNav = ({ handleNavItemClick }: { handleNavItemClick: (label: string) => void }) => {
+const MobileNav = ({
+  handleNavItemClick,
+}: {
+  handleNavItemClick: (label: string) => void;
+}) => {
   return (
-    <Stack
-      textAlign="center"
-      justifyContent="center"
-      h="100%"
-      p={4}
-    >
+    <Stack textAlign="center" justifyContent="center" h="100%" p={4}>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem
           key={navItem.label}
@@ -20,12 +19,17 @@ const MobileNav = ({ handleNavItemClick }: { handleNavItemClick: (label: string)
           handleClick={handleNavItemClick}
         />
       ))}
-      <ColorModeButton />
+      <ColorModeButton/>
+      <LanguageSwitcher />
     </Stack>
   );
 };
 
-const MobileNavItem = ({ label, href, handleClick }: NavItem & { handleClick: (label: string) => void }) => {
+const MobileNavItem = ({
+  label,
+  href,
+  handleClick,
+}: NavItem & { handleClick: (label: string) => void }) => {
   const { t } = i18n;
   const handleItemClick = () => {
     handleClick(label);
