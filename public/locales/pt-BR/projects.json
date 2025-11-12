@@ -2,58 +2,108 @@
   "title": "Meus Projetos",
   "menu": [
     {
-      "title": "B2B - Gazin Atacado",
+      "title": "B2B – Gazin Atacado (E-commerce + Microsserviços)",
       "href": "gazin_atacado_b2b",
-      "description": "Plataforma de e-commerce B2B focada em vendas no atacado. Contribuí com melhorias significativas ao projetar interfaces, criar componentes reutilizáveis, implementar regras de negócio e otimizar o funil de vendas.",
+      "description": "Plataforma de e-commerce B2B construída do zero. Atuei desde o início definindo arquitetura, criando componentes reutilizáveis e implementando regras de negócio e microsserviços.",
       "image": "/assets/gazin_atacado_b2b.png",
-      "technologies": ["Next.js", "TypeScript", "Chakra UI"]
+      "technologies": ["Next.js", "TypeScript", "Chakra UI", "Microsserviços"]
     },
     {
-      "title": "ERP – Gazin Atacado",
+      "title": "ERP – Gazin Atacado (Modernização + Microsserviços)",
       "href": "gazin_atacado_erp",
-      "description": "Plataforma ERP completa para operações de atacado, com suporte a decisões baseadas em dados por meio de ferramentas dinâmicas de relatórios. Atuei de forma essencial na manutenção e evolução do sistema, garantindo desempenho, confiabilidade e uma experiência fluida para os usuários.",
+      "description": "Sistema ERP corporativo responsável por vendas, logística, cobrança, metas e governança de dados. Evoluí módulos legados e participei da migração para microsserviços.",
       "image": "/assets/gazin_atacado_erp.png",
-      "technologies": ["PHP", "Ext.js", "SQL"]
+      "technologies": ["PHP 8.x", "Ext JS", "Clean Architecture", "Microsserviços"]
     },
     {
-      "title": "BeamBridge – Sistema de Transferência de Arquivos",
-      "href": "beambridge_file_transfer",
-      "description": "Plataforma robusta de transferência de arquivos com suporte a uploads fragmentados, Live Photos do iPhone e acompanhamento em tempo real via SSE e WebSockets. Desenvolvido em Go com arquitetura híbrida Hexagonal–Clean, utiliza GraphQL e REST para uma manipulação de dados escalável e performática.",
-      "image": "/assets/beambridge.png",
-      "technologies": [
-        "Go",
-        "GraphQL",
-        "PostgreSQL"
-      ]
+      "title": "Gazin Indústria – Sistema de Gerenciamento Industrial",
+      "href": "gazin_industria",
+      "description": "Manutenção e evolução do sistema responsável por gerenciar linhas de produção, ordens de fabricação e indicadores operacionais da indústria.",
+      "image": "/assets/gazin_industria.png",
+      "technologies": ["PHP 8.2", "Slim Framework", "Oracle PL/SQL"]
+    },
+    {
+      "title": "Rate Limiter em Go – Middleware + Redis",
+      "href": "go_rate_limiter",
+      "description": "Middleware de rate limiting para APIs, com suporte a bloqueio temporário, limite por IP/token e armazenamento no Redis.",
+      "image": "/assets/rate_limiter.png",
+      "technologies": ["Go", "Redis", "Docker", "CI/CD"]
+    },
+    {
+      "title": "Auction System – Fechamento Automático de Lotes",
+      "href": "go_auction_system",
+      "description": "Sistema de leilão em Go com goroutines para fechamento automático de lotes em background.",
+      "image": "/assets/auction_system.png",
+      "technologies": ["Go", "PostgreSQL", "Docker", "Clean Architecture"]
+    },
+    {
+      "title": "MFA Service – Autenticação Multi-Fator",
+      "href": "mfa_service",
+      "description": "Serviço externo de MFA compartilhado entre sistemas, com validação de tokens e integração com serviços externos.",
+      "image": "/assets/mfa_service.png",
+      "technologies": ["PHP 8.4", "Slim Framework", "Redis", "Guzzle", "Clean Architecture"]
     }
   ],
+
   "projects": {
     "gazin_atacado_b2b": {
-      "aboutTitle": "B2B - Gazin Atacado",
-      "projectDescription": "De 2022 a 2024, fiz parte da equipe que desenvolveu do zero a plataforma de e-commerce B2B da Gazin Atacado. Trabalhei com React, Next.js e TypeScript no frontend, além de contribuir com o backend e a arquitetura do sistema nas fases iniciais do projeto.",
-      "responsibilitiesTitle": "Minhas Responsabilidades",
-      "responsibilitiesDescription": "Fui inicialmente responsável por adaptar regras de negócio e de vendas do sistema legado Sabium, além de ajudar a definir a base arquitetural da plataforma. Criei componentes escaláveis, implementei lógica de negócio, otimizei o funil de vendas e participei de decisões importantes de design e arquitetura junto ao time.",
-      "projectImpactTitle": "Impacto do Projeto",
-      "image": "/assets/gazin_atacado_b2b.png",
-      "projectImpactDescription": "Minha participação desde o início garantiu uma base arquitetural sólida e uma experiência fluida para o usuário. O resultado foi uma solução B2B moderna e eficiente, que otimizou operações no atacado e reforçou a posição da Gazin Atacado como líder de mercado."
+      "aboutTitle": "B2B – Gazin Atacado",
+      "projectDescription": "Entre 2022 e 2024 participei da construção do e-commerce B2B da Gazin Atacado, iniciado do zero. Contribuí com decisões de arquitetura, criação de componentes reutilizáveis e integração de microsserviços com ERP e gateways de venda.",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Definição da base do projeto, implementação de microsserviços, modelagem de regras de vendas, criação de componentes escaláveis com Next.js + Chakra UI, integração com APIs internas e otimização do funil de vendas.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "O B2B reduziu custos operacionais, automatizou processos de venda, eliminou falhas manuais e aumentou a conversão de pedidos no atacado.",
+      "image": "/assets/gazin_atacado_b2b.png"
     },
+
     "gazin_atacado_erp": {
-      "aboutTitle": "Gazin Atacado ERP – Da Manutenção Legada à Migração para Microsserviços",
-      "projectDescription": "Ao longo de 4 anos, atuei no sistema ERP da Gazin Atacado, uma plataforma crítica para as operações de atacado. O sistema foi desenvolvido em PHP (5.2, 7.4, 8.1), JavaScript e Ext JS, onde comecei realizando manutenção e melhorias na base de código legada.",
-      "responsibilitiesTitle": "Minhas Responsabilidades",
-      "responsibilitiesDescription": "Inicialmente focado na manutenção de módulos legados, depois participei de um esforço de migração em larga escala iniciado em meados de 2023. Contribuí para a modernização do sistema aplicando princípios da Clean Architecture e boas práticas de microsserviços para garantir escalabilidade e qualidade de código em todos os serviços.",
-      "projectImpactTitle": "Impacto do Projeto",
-      "projectImpactDescription": "Meu trabalho ajudou a estabilizar o ERP legado e preparou o caminho para uma arquitetura moderna orientada a serviços. Essa transição melhorou a manutenibilidade, escalabilidade e velocidade de desenvolvimento — permitindo que a Gazin Atacado continuasse crescendo com uma base tecnológica sólida e preparada para o futuro.",
+      "aboutTitle": "ERP – Gazin Atacado (Modernização e Microsserviços)",
+      "projectDescription": "Sistema ERP central para vendas, metas, logística e faturamento. Atuei por 4 anos na manutenção de módulos legados e na migração progressiva para microsserviços com Clean Architecture.",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Refatoração de código legado (PHP 5.2 → 8.1), reescrita de módulos críticos, uso de Oracle PL/SQL para otimização de queries pesadas (CTEs, índices, tuning), definição de arquitetura orientada a microsserviços e padronização de novas APIs.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "Redução de consultas lentas de minutos para segundos, ganho de escalabilidade e maior velocidade de desenvolvimento devido à modularização baseada em serviços.",
       "image": "/assets/gazin_atacado_erp.png"
     },
-    "beambridge_file_transfer": {
-      "aboutTitle": "BeamBridge – Sistema de Transferência de Arquivos",
-      "projectDescription": "Em 2025, concebi e desenvolvi o BeamBridge, um sistema de transferência de arquivos de alta performance criado em Go, com foco em recursos modernos como uploads fragmentados, suporte a Live Photos do iPhone e feedback em tempo real durante o envio. O projeto foi desenvolvido como um showcase de portfólio para demonstrar minha capacidade em design de arquitetura e desenvolvimento backend.",
-      "responsibilitiesTitle": "Minhas Responsabilidades",
-      "responsibilitiesDescription": "Estruturei o sistema com uma abordagem híbrida entre Arquitetura Hexagonal e Clean Architecture, desenvolvi todo o backend em Go, implementei GraphQL para as operações principais e REST para o upload de arquivos. Usei Redis para gerenciamento de estado, construí acompanhamento em tempo real com SSE e WebSockets, e contêinerizei a aplicação com Docker para facilitar o desenvolvimento e a implantação.",
-      "projectImpactTitle": "Destaques do Projeto",
-      "image": "/assets/beambridge.png",
-      "projectImpactDescription": "O BeamBridge demonstra minha habilidade em projetar sistemas backend escaláveis com tecnologias modernas. Mostra minha experiência prática com comunicação em tempo real, performance na manipulação de arquivos e design modular orientado a domínio – aspectos fundamentais de um portfólio sólido em engenharia backend."
+
+    "gazin_industria": {
+      "aboutTitle": "Gazin Indústria – Sistema de Gerenciamento Industrial",
+      "projectDescription": "Sistema responsável pelo controle de produção e ordens de fabricação em linhas industriais da Gazin. Foi desenvolvido em PHP 8.2 usando Slim como microframework.",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Criação de novas rotinas, manutenção de regras de negócio críticas, otimização de PL/SQL no Oracle, integração com outros sistemas da Gazin (ERP e logística) e melhorias de estabilidade do backend.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "Melhorou a confiabilidade do processo industrial, reduziu falhas operacionais e entregou maior rastreabilidade do fluxo de produção.",
+      "image": "/assets/gazin_industria.png"
+    },
+
+    "go_rate_limiter": {
+      "aboutTitle": "Rate Limiter – Go + Redis",
+      "projectDescription": "Middleware capaz de limitar requisições por IP/token, retornar HTTP 429 e bloquear requisições por tempo determinado.",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Implementação do middleware, Redis como storage, configuração via .env, Dockerfile, testes e documentação.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "Demonstrou domínio de arquitetura backend, concorrência e boas práticas para APIs escaláveis.",
+      "image": "/assets/rate_limiter.png"
+    },
+
+    "go_auction_system": {
+      "aboutTitle": "Auction System – Fechamento Automático",
+      "projectDescription": "Sistema backend de leilão com goroutines monitorando expiração de lotes e atualização automática do status.",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Orquestração com goroutines, transações no PostgreSQL, testes, logs estruturados e arquitetura limpa.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "Demonstra uso real de concorrência, escalabilidade e jobs assíncronos em produção.",
+      "image": "/assets/auction_system.png"
+    },
+
+    "mfa_service": {
+      "aboutTitle": "MFA Service – Autenticação Multi-Fator",
+      "projectDescription": "Serviço único para MFA usado por múltiplos sistemas (centralização de regras e tokens).",
+      "responsibilitiesTitle": "Responsabilidades",
+      "responsibilitiesDescription": "Integrações com APIs externas via Guzzle, Redis para TTL e cache, arquitetura desacoplada e clean architecture.",
+      "projectImpactTitle": "Impacto",
+      "projectImpactDescription": "Reduziu duplicação de lógica de autenticação entre sistemas e aumentou a segurança.",
+      "image": "/assets/mfa_service.png"
     }
   }
 }

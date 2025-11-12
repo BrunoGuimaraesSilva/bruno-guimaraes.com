@@ -3,30 +3,33 @@
     "title": "Conheça o Bruno",
     "name": "Sou Bruno Guimarães da Silva",
     "description": [
-      "Sou um engenheiro de software apaixonado por desenvolver aplicações escaláveis e de alta qualidade que geram impacto real. Com sólida experiência em PHP, Next.js e TypeScript, me especializo em construir sistemas backend robustos e experiências de usuário fluídas, sempre com foco em performance, manutenibilidade e arquitetura limpa.",
-      "Natural do Brasil e atualmente ampliando minha visão global através de uma experiência internacional na Irlanda, atuo também como mentor de startups, ajudando na definição de estratégias técnicas, otimização de fluxos de trabalho e construção de bases de engenharia resilientes.",
-      "Movido por curiosidade e pela resolução de problemas, gosto de enfrentar desafios complexos em toda a stack. Atualmente, estou aprimorando minhas habilidades em Go, com foco no desenvolvimento backend de alta performance e arquitetura cloud-native, buscando sempre ultrapassar os limites do software moderno.",
-      "Fora da tecnologia, aplico criatividade e precisão em hobbies como montar PCs gamers personalizados, orientar clientes sobre configurações de hardware de alto desempenho e cozinhar pratos saborosos da culinária italiana e portuguesa. Seja construindo sistemas ou receitas, trago a mesma paixão por detalhes, performance e qualidade."
+      "Sou engenheiro de software full-stack especializado em criar sistemas escaláveis, seguros e de alta performance. Minha experiência combina backend robusto (PHP e Go) com interfaces modernas usando Next.js, Vite e Remix Run. Meu foco é transformar problemas complexos em soluções simples e eficientes, com código limpo, rastreabilidade e arquitetura sustentável.",
+      "Atualmente estou no Brasil e trabalhando novamente na Gazin, uma das maiores empresas de varejo e distribuição do país. Participo da evolução e modernização de aplicações corporativas — desde refatoração de monolitos até integração entre serviços, mensageria e criação de microsserviços.",
+      "Tenho forte experiência em Oracle e SQL avançado (queries complexas, tuning, PL/SQL, indexação, CTEs e otimização de queries de alto volume). Já reduzi processos de minutos para segundos por meio de modelagem, refatoração e análise de execução.",
+      "Mesmo atuando em um projeto de grande porte, estou disponível para novas oportunidades — incluindo projetos internacionais, trabalho remoto ou relocation. Tenho experiência trabalhando com equipes globais, inglês fluente e alta capacidade de adaptação.",
+      "Sou movido por desafios e curiosidade. Gosto de pegar sistemas legados e transformá-los em algo moderno, escalável e previsível. Fora do código, monto PCs gamers sob demanda e cozinho pratos italianos e portugueses — com o mesmo foco em precisão e excelência."
     ]
   },
+
   "stats": {
-    "title": "Estatísticas",
+    "title": "Resultados em números",
     "1": {
-      "title": "Anos",
+      "title": "Experiência",
       "number": 5,
-      "description": "Anos de experiência em desenvolvimento de software"
+      "description": "Anos atuando como desenvolvedor full-stack em empresas, startups e projetos internacionais."
     },
     "3": {
-      "title": "Projetos",
+      "title": "Projetos entregues",
       "number": 50,
-      "description": "Projetos públicos e privados utilizando uma ampla gama de tecnologias."
+      "description": "Sistemas, APIs, dashboards, microsserviços e automações de processos complexos."
     },
     "4": {
-      "title": "Tecnologias",
-      "number": 10,
-      "description": "Tecnologias e linguagens de programação utilizadas em projetos anteriores."
+      "title": "Tecnologias dominadas",
+      "number": 12,
+      "description": "Stacks aplicadas em cenários reais, com foco em performance e qualidade de entrega."
     }
   },
+
   "education": {
     "title": "Educação",
     "list": [
@@ -35,124 +38,82 @@
         "institution": "FullCycle College of Technology",
         "duration": "Maio 2024 – Nov 2024",
         "level": "EQF Nível 7 / NQF Nível 9",
-        "description": "Programa de especialização de ponta focado na construção de sistemas backend de alta performance e prontos para produção usando Go (Golang). O currículo aborda tópicos avançados como padrões de concorrência, sistemas distribuídos, arquitetura de microsserviços, código limpo, observabilidade e benchmarking. Ênfase em projetos práticos e cenários reais, utilizando ferramentas como Docker, Kubernetes, gRPC e Protobuf, preparando desenvolvedores para arquitetura de software escalável e cloud-native. Desenvolvido por especialistas de uma das plataformas de educação tecnológica mais respeitadas do Brasil."
+        "description": "Especialização focada em backend e arquitetura cloud-native. Projetos práticos com microsserviços, concorrência, mensageria, caching, gRPC, Protobuf, Docker, Kubernetes e observabilidade."
       },
       {
-        "degree": "Bacharelado em Tecnologia em Sistemas para Internet",
+        "degree": "Tecnólogo em Sistemas para Internet",
         "institution": "Faculdade Alfa Umuarama",
         "duration": "Fev 2020 – Dez 2022",
-        "description": "Programa multidisciplinar preparado para capacitar profissionais para o ciclo completo de vida de sistemas baseados na web e internet. O curso combinou fundamentos teóricos com aplicação prática nas áreas de engenharia de software, desenvolvimento web, bancos de dados, UX/UI, segurança da informação e aplicações mobile. Focado no desenvolvimento de sistemas escaláveis e seguros com uso de tecnologias modernas. Formados estão aptos a atuar como desenvolvedores, analistas de sistemas ou consultores de TI em diversos setores."
+        "description": "Formação prática e orientada ao mercado em engenharia de software, desenvolvimento web, bancos de dados, UX/UI e segurança da informação. Ênfase em desenvolvimento de aplicações web completas."
       },
       {
         "degree": "Intercâmbio – Inglês e Imersão Cultural",
         "institution": "International School of English (ISE), Dublin, Irlanda",
         "duration": "2024 – 2025",
-        "description": "Programa de intercâmbio de um ano focado em fluência em inglês, imersão cultural e comunicação global. Desenvolvi habilidades interpessoais valiosas como adaptabilidade, trabalho em equipe multicultural e colaboração intercultural. Trabalhei meio período e participei ativamente de meetups de tecnologia locais, expandindo minha rede profissional e visão internacional."
+        "description": "Fluência em inglês, networking internacional e participação em eventos e comunidades globais de tecnologia."
       }
     ]
   },
+
   "skills": {
     "title": "Habilidades e Especialidades",
-    "description": "Com profundo conhecimento em tecnologias de frontend e backend, sou especialista na criação de aplicações escaláveis, eficientes e centradas no usuário. Minhas habilidades estão em constante evolução conforme exploro novos frameworks e linguagens. Aqui está um resumo da minha expertise:",
+    "description": "Construo sistemas completos — do backend ao frontend — com foco em escalabilidade, arquitetura limpa e experiência do usuário. Sou movido por impacto e clareza na solução, não apenas por tecnologia.",
+
     "frontend": {
       "title": "Desenvolvimento Frontend",
       "list": [
-        {
-          "name": "Next.js",
-          "description": "Criação de aplicações React de alta performance, otimizadas para SEO com renderização no servidor e geração estática de páginas."
-        },
-        {
-          "name": "TypeScript",
-          "description": "Especialista em TypeScript para manter o código mais limpo, seguro e de fácil manutenção."
-        },
-        {
-          "name": "React",
-          "description": "Experiência sólida no desenvolvimento de interfaces responsivas e interativas, otimizando a experiência do usuário."
-        },
-        {
-          "name": "Chakra UI",
-          "description": "Utilização do Chakra UI para criar interfaces acessíveis e componentes flexíveis."
-        },
-        {
-          "name": "Ext JS",
-          "description": "Experiência na criação de aplicações web corporativas complexas com Ext JS, com foco em grids avançados e componentes de interface."
-        }
+        { "name": "Next.js", "description": "SSR/SSG, SEO, otimização de performance, rotas híbridas e aplicações escaláveis." },
+        { "name": "React", "description": "Interfaces dinâmicas e responsivas com foco na experiência do usuário." },
+        { "name": "TypeScript", "description": "Código seguro, previsível e organizado para projetos de longo prazo." },
+        { "name": "Vite", "description": "Desenvolvimento frontend altamente produtivo com build super rápido e hot reload eficiente." },
+        { "name": "Remix Run", "description": "Web apps com foco em performance, fluxo baseado em rotas, loaders e actions para full-stack com React." },
+        { "name": "Chakra UI / Shadcn UI", "description": "Design system modular, acessível e com consistência visual." },
+        { "name": "Ext JS", "description": "Desenvolvimento de aplicações corporativas complexas e telas com alta densidade de dados." }
       ]
     },
+
     "backend": {
       "title": "Desenvolvimento Backend",
       "list": [
-        {
-          "name": "PHP",
-          "description": "Mais de 5 anos de experiência com PHP, incluindo as versões 5.2, 7.4 e 8.1. Desenvolvimento de sites dinâmicos, APIs e otimização de sistemas legados."
-        },
-        {
-          "name": "Go (Golang)",
-          "description": "Atualmente aprimorando habilidades como desenvolvedor Go, com foco em serviços backend escaláveis e de alta performance."
-        },
-        {
-          "name": "Arquitetura de Microsserviços",
-          "description": "Participação na transição de aplicações monolíticas para microsserviços, promovendo escalabilidade e colaboração entre times."
-        },
-        {
-          "name": "Arquitetura Limpa",
-          "description": "Foco em criar sistemas escaláveis, testáveis e de fácil manutenção, utilizando os princípios da Arquitetura Limpa tanto no backend quanto no frontend."
-        }
+        { "name": "Go (Golang)", "description": "Serviços de alta performance, concorrência, APIs REST e microserviços prontos para produção." },
+        { "name": "PHP", "description": "Mais de 5 anos de experiência com versões 5.2, 7.x e 8.x em APIs, integrações e sistemas corporativos." },
+        { "name": "Microsserviços", "description": "Transição de monolitos para microsserviços, mensageria e escalabilidade horizontal." },
+        { "name": "Arquitetura Limpa / DDD", "description": "Sistemas modulares, testáveis e evolutivos, com baixo acoplamento entre camadas." }
       ]
     },
+
     "optimization": {
       "title": "Resolução de Problemas e Otimização",
       "list": [
-        {
-          "name": "Otimização de Performance",
-          "description": "Foco na melhoria de performance das aplicações, incluindo redução de tempo de carregamento, otimização de queries e melhor experiência do usuário."
-        },
-        {
-          "name": "Escalabilidade",
-          "description": "Especialista em projetar sistemas escaláveis, seja refatorando sistemas monolíticos para microsserviços ou otimizando arquiteturas backend."
-        },
-        {
-          "name": "Qualidade de Código",
-          "description": "Compromisso com boas práticas de mercado e código limpo. Foco em TDD (desenvolvimento orientado a testes) e code reviews para manter a qualidade."
-        }
+        { "name": "Performance & Observabilidade", "description": "Tracing, logs estruturados, profiling e resolução de gargalos em produção." },
+        { "name": "Escalabilidade", "description": "Refatoração de legados e otimização de pipelines e arquiteturas." },
+        { "name": "Qualidade de Código / TDD", "description": "Testes automatizados, code reviews e cultura de melhoria contínua." }
       ]
     },
+
+    "database": {
+      "title": "Banco de Dados & SQL",
+      "list": [
+        { "name": "Oracle / PL-SQL", "description": "Queries complexas, tuning, CTEs, indexing e otimização de rotinas críticas." },
+        { "name": "PostgreSQL / MongoDB / Redis", "description": "Estratégias de caching, filas, persistência e modelagem eficiente." }
+      ]
+    },
+
     "cloud": {
       "title": "Cloud & DevOps",
       "list": [
-        {
-          "name": "AWS",
-          "description": "Experiência com serviços AWS como EC2, S3 e RDS para deploy e gerenciamento de aplicações em nuvem."
-        },
-        {
-          "name": "Docker",
-          "description": "Uso do Docker para containerização, garantindo consistência entre os ambientes de desenvolvimento, testes e produção."
-        },
-        {
-          "name": "CI/CD",
-          "description": "Implementação de pipelines de integração e entrega contínua para automação de testes e deploys."
-        }
+        { "name": "AWS (S3, EC2, RDS, SES, Route53)", "description": "Infraestrutura escalável, automação e deploy em cloud." },
+        { "name": "Docker / Docker Compose", "description": "Ambientes reprodutíveis e pipelines consistentes." },
+        { "name": "CI/CD (GitHub Actions, GitLab CI)", "description": "Automação de testes, build e entrega contínua." }
       ]
     },
+
     "other": {
       "title": "Outras Habilidades",
       "list": [
-        {
-          "name": "Metodologias Ágeis",
-          "description": "Experiência com metodologias ágeis como Scrum e Kanban, entregando projetos de forma eficiente."
-        },
-        {
-          "name": "Liderança Técnica",
-          "description": "Experiência comprovada em mentoria de equipes e tomada de decisões técnicas estratégicas."
-        },
-        {
-          "name": "Colaboração",
-          "description": "Trabalho próximo com times multidisciplinares (designers, PMs, desenvolvedores) para entregar soluções de impacto."
-        },
-        {
-          "name": "Adaptabilidade",
-          "description": "Capacidade de adaptação rápida a novas tecnologias e ambientes, facilitando transições suaves para times e produtos."
-        }
+        { "name": "Mentoria e Liderança Técnica", "description": "Alinhamento de equipes, decisões técnicas e orientação de carreira." },
+        { "name": "Metodologias Ágeis", "description": "Scrum e Kanban com foco em entrega contínua e previsibilidade." },
+        { "name": "Adaptabilidade", "description": "Alta capacidade de adaptação a novas tecnologias e ambientes multiculturais." }
       ]
     }
   }

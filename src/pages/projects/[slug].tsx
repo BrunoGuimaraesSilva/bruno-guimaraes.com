@@ -43,6 +43,7 @@ export default function AboutPage() {
   return (
     <ResponsiveContainer>
       <GButton
+      mt={10}
         bg={"transparent"}
         borderRadius="lg" boxShadow="lg"
         onClick={() => router.back()}
@@ -55,6 +56,7 @@ export default function AboutPage() {
         alt={t(`projects:projects:${router.query.slug}.aboutTitle`)}
         borderRadius="lg"
         mb={6}
+        maxH={300}
       />
 
       <VStack align="start">

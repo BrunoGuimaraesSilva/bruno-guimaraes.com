@@ -7,6 +7,7 @@ import {
   Image,
   HStack,
   Badge,
+  Center,
 } from "@chakra-ui/react";
 import { LIGHT, useColorMode } from "@presentation/ui/color-mode";
 import ResponsiveContainer from "@presentation/wrappers/ResponsiveContainer";
@@ -37,7 +38,7 @@ export default function ProjectsPage() {
         {menuArray.map((project, key) => (
           <Link href={`/projects/${project.href}`}>
             <Box
-              h={"100%"}
+              minH={'90%'}
               key={key}
               p={4}
               m={{ base: 2, md: 4 }}
@@ -56,6 +57,8 @@ export default function ProjectsPage() {
                 borderRadius="md"
                 maxH={300}
                 mb={4}
+                display="block"
+                mx="auto"
               />
               <VStack align="start">
                 <Heading as="h3" size="md">
