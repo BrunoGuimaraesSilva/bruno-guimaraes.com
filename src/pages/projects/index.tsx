@@ -7,7 +7,6 @@ import {
   Image,
   HStack,
   Badge,
-  Center,
 } from "@chakra-ui/react";
 import { LIGHT, useColorMode } from "@presentation/ui/color-mode";
 import ResponsiveContainer from "@presentation/wrappers/ResponsiveContainer";
