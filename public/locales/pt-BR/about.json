@@ -3,11 +3,12 @@
     "title": "Conheça o Bruno",
     "name": "Sou Bruno Guimarães da Silva",
     "description": [
-      "Sou engenheiro de software full-stack especializado em criar sistemas escaláveis, seguros e de alta performance. Minha experiência combina backend robusto (PHP e Go) com interfaces modernas usando Next.js, Vite e Remix Run. Meu foco é transformar problemas complexos em soluções simples e eficientes, com código limpo, rastreabilidade e arquitetura sustentável.",
-      "Atualmente estou no Brasil e trabalhando novamente na Gazin, uma das maiores empresas de varejo e distribuição do país. Participo da evolução e modernização de aplicações corporativas — desde refatoração de monolitos até integração entre serviços, mensageria e criação de microsserviços.",
-      "Tenho forte experiência em Oracle e SQL avançado (queries complexas, tuning, PL/SQL, indexação, CTEs e otimização de queries de alto volume). Já reduzi processos de minutos para segundos por meio de modelagem, refatoração e análise de execução.",
-      "Mesmo atuando em um projeto de grande porte, estou disponível para novas oportunidades — incluindo projetos internacionais, trabalho remoto ou relocation. Tenho experiência trabalhando com equipes globais, inglês fluente e alta capacidade de adaptação.",
-      "Sou movido por desafios e curiosidade. Gosto de pegar sistemas legados e transformá-los em algo moderno, escalável e previsível. Fora do código, monto PCs gamers sob demanda e cozinho pratos italianos e portugueses — com o mesmo foco em precisão e excelência."
+      "Engenheiro de Software Full-Stack Sênior com mais de 6 anos projetando, modernizando e escalando sistemas distribuídos de alto volume. Especializado em construir pipelines resilientes de ingestão de dados orientados a eventos, APIs REST e microsserviços que processam milhões em transações diárias e suportam mais de 340 usuários simultâneos.",
+      "Minha expertise abrange PHP 7.4–8.1, Nest.js (Node.js), Go, React/Next.js e TypeScript. Tenho histórico comprovado na refatoração de sistemas legados Oracle em arquiteturas modernas e tolerantes a falhas, usando Domain-Driven Design (DDD), SOLID, Arquitetura Hexagonal, Apache Kafka e Kubernetes.",
+      "Atualmente estou no Brasil, trabalhando novamente na GazinTech — uma das maiores empresas de varejo e distribuição do país. Lidero a redesign completa de um sistema legado de Change Notification (CQN) do Oracle para uma arquitetura moderna de microsserviços orientados a eventos com Nest.js e Apache Kafka, garantindo zero perda de dados.",
+      "Sou apaixonado por observabilidade, performance em escala, confiabilidade em produção e resolução rápida de incidentes através de plantão on-call 24/7. Confortável trabalhando com equipes multiculturais e remotas. Engenheiro versátil, confortável com qualquer linguagem de programação e com grande vontade de aprender e contribuir rapidamente em novas stacks.",
+      "Fora do código, morei em Dublin, Irlanda, onde fortaleci meu inglês em ambiente profissional multicultural. Gosto de cozinhar pratos italianos e portugueses — sempre com o mesmo foco em precisão e excelência.",
+      "Também sou um grande entusiasta automotivo. Tenho dois projetos na garagem e adoro acompanhar eventos de automobilismo como a StockCar Brasil. Assim como no desenvolvimento de software, aprecio demais a precisão e a engenharia de performance por trás deles."
     ]
   },
 
@@ -15,18 +16,18 @@
     "title": "Resultados em números",
     "1": {
       "title": "Experiência",
-      "number": 5,
-      "description": "Anos atuando como desenvolvedor full-stack em empresas, startups e projetos internacionais."
+      "number": 6,
+      "description": "Anos projetando, modernizando e escalando sistemas distribuídos de alto volume em produção."
     },
     "3": {
-      "title": "Projetos entregues",
-      "number": 50,
-      "description": "Sistemas, APIs, dashboards, microsserviços e automações de processos complexos."
+      "title": "Transações diárias",
+      "number": 7,
+      "description": "Milhões (R$) processados diariamente em plataformas ERP e e-commerce B2B de alto volume."
     },
     "4": {
-      "title": "Tecnologias dominadas",
-      "number": 12,
-      "description": "Stacks aplicadas em cenários reais, com foco em performance e qualidade de entrega."
+      "title": "Usuários concorrentes",
+      "number": 340,
+      "description": "Usuários ativos diários suportados simultaneamente nas plataformas mantidas e escaladas."
     }
   },
 
@@ -36,84 +37,101 @@
       {
         "degree": "Pós-graduação em Desenvolvimento Avançado com Go",
         "institution": "FullCycle College of Technology",
-        "duration": "Maio 2024 – Nov 2024",
+        "duration": "2024",
         "level": "EQF Nível 7 / NQF Nível 9",
         "description": "Especialização focada em backend e arquitetura cloud-native. Projetos práticos com microsserviços, concorrência, mensageria, caching, gRPC, Protobuf, Docker, Kubernetes e observabilidade."
       },
       {
         "degree": "Tecnólogo em Sistemas para Internet",
-        "institution": "Faculdade Alfa Umuarama",
-        "duration": "Fev 2020 – Dez 2022",
-        "description": "Formação prática e orientada ao mercado em engenharia de software, desenvolvimento web, bancos de dados, UX/UI e segurança da informação. Ênfase em desenvolvimento de aplicações web completas."
+        "institution": "Faculdade Alfa Umuarama, Brasil",
+        "duration": "2022",
+        "description": "Formação prática e orientada ao mercado em engenharia de software, desenvolvimento web, bancos de dados, UX/UI e segurança da informação."
       },
       {
-        "degree": "Intercâmbio – Inglês e Imersão Cultural",
-        "institution": "International School of English (ISE), Dublin, Irlanda",
+        "degree": "Experiência Internacional — Dublin, Irlanda",
+        "institution": "Dublin, Irlanda",
         "duration": "2024 – 2025",
-        "description": "Fluência em inglês, networking internacional e participação em eventos e comunidades globais de tecnologia."
+        "description": "Proficiência profissional em inglês (B2), uso diário do idioma em ambientes multiculturais. Trabalho em equipe com colegas irlandeses e colombianos. Participação em meetups de tecnologia focados em arquitetura backend e sistemas distribuídos escaláveis."
       }
     ]
   },
 
   "skills": {
     "title": "Habilidades e Especialidades",
-    "description": "Construo sistemas completos — do backend ao frontend — com foco em escalabilidade, arquitetura limpa e experiência do usuário. Sou movido por impacto e clareza na solução, não apenas por tecnologia.",
+    "description": "Construo sistemas completos — do backend ao frontend — com foco em escalabilidade, arquitetura limpa, observabilidade e confiabilidade em produção. Engenheiro versátil e rápido em aprender novas stacks.",
 
     "frontend": {
       "title": "Desenvolvimento Frontend",
       "list": [
+        { "name": "React", "description": "Interfaces modernas, dinâmicas e responsivas com foco na experiência do usuário." },
         { "name": "Next.js", "description": "SSR/SSG, SEO, otimização de performance, rotas híbridas e aplicações escaláveis." },
-        { "name": "React", "description": "Interfaces dinâmicas e responsivas com foco na experiência do usuário." },
         { "name": "TypeScript", "description": "Código seguro, previsível e organizado para projetos de longo prazo." },
-        { "name": "Vite", "description": "Desenvolvimento frontend altamente produtivo com build super rápido e hot reload eficiente." },
-        { "name": "Remix Run", "description": "Web apps com foco em performance, fluxo baseado em rotas, loaders e actions para full-stack com React." },
-        { "name": "Chakra UI / Shadcn UI", "description": "Design system modular, acessível e com consistência visual." },
-        { "name": "Ext JS", "description": "Desenvolvimento de aplicações corporativas complexas e telas com alta densidade de dados." }
+        { "name": "JavaScript", "description": "Base sólida em vanilla JS, ES6+ e padrões modernos de desenvolvimento web." },
+        { "name": "Redux", "description": "Gerenciamento de estado previsível para aplicações React de grande escala." },
+        { "name": "Vite", "description": "Desenvolvimento frontend altamente produtivo com build rápido e hot reload eficiente." }
       ]
     },
 
     "backend": {
       "title": "Desenvolvimento Backend",
       "list": [
-        { "name": "Go (Golang)", "description": "Serviços de alta performance, concorrência, APIs REST e microserviços prontos para produção." },
-        { "name": "PHP", "description": "Mais de 5 anos de experiência com versões 5.2, 7.x e 8.x em APIs, integrações e sistemas corporativos." },
-        { "name": "Microsserviços", "description": "Transição de monolitos para microsserviços, mensageria e escalabilidade horizontal." },
-        { "name": "Arquitetura Limpa / DDD", "description": "Sistemas modulares, testáveis e evolutivos, com baixo acoplamento entre camadas." }
+        { "name": "PHP (7.4 / 8.1+)", "description": "6+ anos de experiência em APIs, integrações, sistemas corporativos e modernização de legados." },
+        { "name": "Nest.js (Node.js)", "description": "Microsserviços orientados a eventos, ingestão de dados via Kafka e integrações com Oracle CQN." },
+        { "name": "Go (Golang)", "description": "Serviços de alta performance, concorrência, APIs REST e pós-graduação avançada." },
+        { "name": "Apache Kafka", "description": "Sistemas orientados a eventos, streaming de dados e garantia de entrega com zero perda." },
+        { "name": "REST APIs", "description": "Design e implementação de APIs escaláveis consumidas por módulos internos e integrações B2B." },
+        { "name": "Slim Framework", "description": "Microframework PHP para serviços leves e de alta performance." }
       ]
     },
 
-    "optimization": {
-      "title": "Resolução de Problemas e Otimização",
+    "architecture": {
+      "title": "Arquitetura e Práticas",
       "list": [
-        { "name": "Performance & Observabilidade", "description": "Tracing, logs estruturados, profiling e resolução de gargalos em produção." },
-        { "name": "Escalabilidade", "description": "Refatoração de legados e otimização de pipelines e arquiteturas." },
-        { "name": "Qualidade de Código / TDD", "description": "Testes automatizados, code reviews e cultura de melhoria contínua." }
+        { "name": "Sistemas Distribuídos", "description": "Arquitetura de sistemas de grande escala com alta disponibilidade e tolerância a falhas." },
+        { "name": "Pipelines de Ingestão de Dados", "description": "Pipeline de ingestão orientado a eventos com deduplicação e reprocessamento automático." },
+        { "name": "Microsserviços", "description": "Decomposição de monolitos e transição para arquiteturas de serviços independentes." },
+        { "name": "Monolitos Modulares", "description": "Estratégias de modernização incremental de sistemas legados." },
+        { "name": "DDD / SOLID / Hexagonal", "description": "Sistemas modulares, testáveis e evolutivos com baixo acoplamento." },
+        { "name": "Tolerância a Falhas", "description": "Mecanismos de retry, fallback e reprocessamento automático garantindo zero perda de dados." }
       ]
     },
 
     "database": {
       "title": "Banco de Dados & SQL",
       "list": [
-        { "name": "Oracle / PL-SQL", "description": "Queries complexas, tuning, CTEs, indexing e otimização de rotinas críticas." },
-        { "name": "PostgreSQL / MongoDB / Redis", "description": "Estratégias de caching, filas, persistência e modelagem eficiente." }
+        { "name": "PostgreSQL", "description": "Modelagem eficiente, estratégias de indexação e otimização de queries de alto volume." },
+        { "name": "Oracle / PL-SQL", "description": "Queries complexas, tuning avançado, CTEs, indexação e otimização de rotinas críticas." },
+        { "name": "SQL Avançado", "description": "Otimização de até 20% de performance em datasets de alto volume." }
       ]
     },
 
     "cloud": {
-      "title": "Cloud & DevOps",
+      "title": "DevOps & Cloud",
       "list": [
-        { "name": "AWS (S3, EC2, RDS, SES, Route53)", "description": "Infraestrutura escalável, automação e deploy em cloud." },
-        { "name": "Docker / Docker Compose", "description": "Ambientes reprodutíveis e pipelines consistentes." },
-        { "name": "CI/CD (GitHub Actions, GitLab CI)", "description": "Automação de testes, build e entrega contínua." }
+        { "name": "Docker", "description": "Containerização de aplicações e ambientes reprodutíveis." },
+        { "name": "Kubernetes", "description": "Orquestração de deployments, escalabilidade e alta disponibilidade." },
+        { "name": "AWS (EC2, RDS, S3)", "description": "Infraestrutura escalável e automação em cloud." },
+        { "name": "CI/CD (Jenkins)", "description": "Automação de builds, testes e releases em produção." },
+        { "name": "Git / GitLab", "description": "Versionamento, code review e fluxos de trabalho colaborativos." },
+        { "name": "Linux/Unix", "description": "Administração de servidores e ambientes de produção." }
+      ]
+    },
+
+    "observability": {
+      "title": "Observabilidade & Confiabilidade",
+      "list": [
+        { "name": "DataDog", "description": "Tracing distribuído, métricas, logs e alertas inteligentes em produção." },
+        { "name": "Logging & Alerting", "description": "Logs estruturados e alertas configurados para anomalias fora do tratamento padrão." },
+        { "name": "On-call 24/7", "description": "Resposta rápida a incidentes, análise de causa raiz e resolução em ambiente de alta disponibilidade." }
       ]
     },
 
     "other": {
       "title": "Outras Habilidades",
       "list": [
-        { "name": "Mentoria e Liderança Técnica", "description": "Alinhamento de equipes, decisões técnicas e orientação de carreira." },
+        { "name": "Adaptabilidade", "description": "Engenheiro versátil, confortável com qualquer linguagem e rápido em aprender novas stacks (C++, Java, etc.)." },
         { "name": "Metodologias Ágeis", "description": "Scrum e Kanban com foco em entrega contínua e previsibilidade." },
-        { "name": "Adaptabilidade", "description": "Alta capacidade de adaptação a novas tecnologias e ambientes multiculturais." }
+        { "name": "Colaboração Multicultural", "description": "Experiência trabalhando em equipes globais remotas com stakeholders de negócio." }
       ]
     }
   }

@@ -1,0 +1,69 @@
+import { ColorModeButton } from "@shared/ui/color-mode";
+import { NAV_ITEMS, NavItem } from "src/domain/constant/navItems";
+import { Stack } from "@chakra-ui/react";
+import GLink from "@v1/components/GLink";
+import i18n from "@i18n";
+import { LanguageSwitcher } from "@shared/ui/LanguageSwitcher";
+
+const MobileNav = ({
+  handleNavItemClick,
+}: {
+  handleNavItemClick: (label: string) => void;
+}) => {
+  return (
+    <Stack textAlign="center" justifyContent="center" h="100%" p={4}>
+      {NAV_ITEMS.map((navItem) => (
+        <MobileNavItem
+          key={navItem.label}
+          {...navItem}
+          handleClick={handleNavItemClick}
+        />
+      ))}
+      <GLink
+        textAlign="center"
+        justifyContent="center"
+        m={1}
+        fontSize={22}
+        fontWeight={600}
+        href="/v2"
+        h="30%"
+        w="100%"
+        onClick={() => handleNavItemClick("V2")}
+        color="primary_light.50"
+      >
+        V2
+      </GLink>
+      <ColorModeButton/>
+      <LanguageSwitcher />
+    </Stack>
+  );
+};
+
+const MobileNavItem = ({
+  label,
+  href,
+  handleClick,
+}: NavItem & { handleClick: (label: string) => void }) => {
+  const { t } = i18n;
+  const handleItemClick = () => {
+    handleClick(label);
+  };
+
+  return (
+    <GLink
+      textAlign="center"
+      justifyContent="center"
+      m={1}
+      fontSize={22}
+      fontWeight={600}
+      href={href}
+      h="30%"
+      w="100%"
+      onClick={handleItemClick}
+    >
+      {t(label)}
+    </GLink>
+  );
+};
+
+export default MobileNav;

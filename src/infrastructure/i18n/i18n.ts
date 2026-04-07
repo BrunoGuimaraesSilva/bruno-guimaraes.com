@@ -1,4 +1,6 @@
 import i18next from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 import common_ptbr from "public/locales/pt-BR/common.json";
 import common_en from "public/locales/en/common.json";
@@ -24,15 +26,29 @@ import contact_en from "public/locales/en/contact.json";
 import projects_ptbr from "public/locales/pt-BR/projects.json";
 import projects_en from "public/locales/en/projects.json";
 
+import timeline_ptbr from "public/locales/pt-BR/timeline.json";
+import timeline_en from "public/locales/en/timeline.json";
 
-import { initReactI18next } from "react-i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
+const SUPPORTED_LANGUAGES = ["en", "pt-BR"];
+const LANGUAGE_STORAGE_KEY = "lang";
 
 i18next
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: "en",
+    fallbackLng: "en",
+    supportedLngs: SUPPORTED_LANGUAGES,
+
+    detection: {
+      order: ["localStorage", "navigator"],
+      lookupLocalStorage: LANGUAGE_STORAGE_KEY,
+      caches: ["localStorage"],
+    },
+
+    interpolation: {
+      escapeValue: false,
+    },
+
     resources: {
       en: {
         common: common_en,
@@ -43,6 +59,7 @@ i18next
         termsAndConditions: termsAndConditions_en,
         contact: contact_en,
         projects: projects_en,
+        timeline: timeline_en,
       },
       "pt-BR": {
         common: common_ptbr,
@@ -53,11 +70,9 @@ i18next
         termsAndConditions: termsAndConditions_ptbr,
         contact: contact_ptbr,
         projects: projects_ptbr,
+        timeline: timeline_ptbr,
       },
     },
   });
 
-export default i18next
-
-
-
+export default i18next;

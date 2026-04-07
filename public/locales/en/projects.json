@@ -1,5 +1,7 @@
 {
   "title": "My Projects",
+  "headline1": "The systems I build,",
+  "headline2": "and the problems I solve.",
   "menu": [
     {
       "title": "B2B – Gazin Atacado (E-commerce + Microservices)",
@@ -23,25 +25,25 @@
       "technologies": ["PHP 8.2", "Slim Framework", "Oracle PL/SQL"]
     },
     {
-      "title": "Rate Limiter in Go – Middleware + Redis",
-      "href": "go_rate_limiter",
-      "description": "Rate limiting middleware for APIs, supporting temporary blocking, IP/token limits, and Redis storage.",
-      "image": "/assets/rate_limiter.png",
-      "technologies": ["Go", "Redis", "Docker", "CI/CD"]
-    },
-    {
-      "title": "Auction System – Automatic Lot Closing",
-      "href": "go_auction_system",
-      "description": "Auction system in Go using goroutines to automatically close lots in background.",
-      "image": "/assets/auction_system.png",
-      "technologies": ["Go", "PostgreSQL", "Docker", "Clean Architecture"]
-    },
-    {
       "title": "MFA Service – Multi-Factor Authentication",
       "href": "mfa_service",
       "description": "External MFA service shared between systems, including token validation and integration with external services.",
       "image": "/assets/mfa_service.png",
       "technologies": ["PHP 8.4", "Slim Framework", "Redis", "Clean Architecture"]
+    },
+    {
+      "title": "Tiger Industria",
+      "href": "tiger_industria",
+      "description": "Industrial management and operational system.",
+      "image": "/assets/placeholder-project.png",
+      "technologies": ["Architecture", "Backend", "Frontend"]
+    },
+    {
+      "title": "GEM – Logistics Platform",
+      "href": "gem_logistics",
+      "description": "New logistics project covering operations, tracking, and management.",
+      "image": "/assets/placeholder-project.png",
+      "technologies": ["Next.js", "TypeScript", "Node.js"]
     }
   ],
 
@@ -76,26 +78,6 @@
       "image": "/assets/gazin_industria.png"
     },
 
-    "go_rate_limiter": {
-      "aboutTitle": "Rate Limiter – Go + Redis",
-      "projectDescription": "Middleware capable of limiting requests by IP/token, returning HTTP 429, and temporarily blocking requests.",
-      "responsibilitiesTitle": "Responsibilities",
-      "responsibilitiesDescription": "Middleware implementation, Redis storage, environment-based configuration, Dockerfile, tests, and documentation.",
-      "projectImpactTitle": "Impact",
-      "projectImpactDescription": "Showcases backend architectural skills, concurrency control, and scalable API best practices.",
-      "image": "/assets/rate_limiter.png"
-    },
-
-    "go_auction_system": {
-      "aboutTitle": "Auction System – Automatic Lot Closing",
-      "projectDescription": "Backend auction system using goroutines to monitor lot expiration and update status automatically.",
-      "responsibilitiesTitle": "Responsibilities",
-      "responsibilitiesDescription": "Goroutine orchestration, PostgreSQL transactions, tests, structured logs, and clean architecture.",
-      "projectImpactTitle": "Impact",
-      "projectImpactDescription": "Demonstrates real usage of concurrency, scalability, and async jobs in production environments.",
-      "image": "/assets/auction_system.png"
-    },
-
     "mfa_service": {
       "aboutTitle": "MFA Service – Multi-Factor Authentication",
       "projectDescription": "Single authentication MFA service used by multiple systems, centralizing token generation and validation.",
@@ -104,6 +86,26 @@
       "projectImpactTitle": "Impact",
       "projectImpactDescription": "Reduced duplication of authentication logic among systems and increased overall security.",
       "image": "/assets/mfa_service.png"
+    },
+
+    "tiger_industria": {
+      "aboutTitle": "Tiger Industria",
+      "projectDescription": "Industrial operational platform.",
+      "responsibilitiesTitle": "Responsibilities",
+      "responsibilitiesDescription": "Architecture, technical decisions, and full-stack implementation.",
+      "projectImpactTitle": "Impact",
+      "projectImpactDescription": "Improved industrial management.",
+      "image": "/assets/placeholder-project.png"
+    },
+
+    "gem_logistics": {
+      "aboutTitle": "GEM – Logistics",
+      "projectDescription": "A newly started logistics project focusing on modern operations.",
+      "responsibilitiesTitle": "Responsibilities",
+      "responsibilitiesDescription": "System design and implementation from the ground up.",
+      "projectImpactTitle": "Impact",
+      "projectImpactDescription": "Streamlining logistics operations.",
+      "image": "/assets/placeholder-project.png"
     }
   }
 }

@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import LottieAnimation from "@presentation/animation/404";
+import LottieAnimation from "@shared/animation/404";
 
 export default function Home() {
   return (

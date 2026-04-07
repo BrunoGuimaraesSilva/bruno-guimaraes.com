@@ -1,7 +1,11 @@
 {
-  "description": "Engenheiro de Software Full-stack apaixonado por construir aplicações eficientes, escaláveis e fáceis de usar. Com uma base sólida em desenvolvimento front-end usando TypeScript e PHP, estou aprofundando ativamente minha expertise em engenharia backend com Go. Estudo e melhoro continuamente tanto as tecnologias de front-end quanto de back-end, enfrentando desafios com entusiasmo e transformando problemas complexos em soluções limpas e de fácil manutenção.",
-  "aboutProject": "Você pode ver mais do meu trabalho no meu perfil do",
+  "description": "Engenheiro de Software Full-Stack Sênior com mais de 6 anos de experiência projetando, modernizando e escalando sistemas distribuídos de alto volume. Especialista em Arquitetura de Software, DDD e princípios SOLID na construção de microsserviços orientados a eventos utilizando PHP, Node.js, React.js e Next.js.",
+  "aboutProject": "Explore o código fonte deste portfólio e meus outros projetos no",
   "resume": {
     "error": "PDF não encontrado, por favor tente novamente mais tarde"
+  },
+  "joker": {
+    "title": "O Coringa Multidisciplinar",
+    "description": "Prospero em projetos complexos e equipes dinâmicas. Como um verdadeiro coringa na empresa, me adapto rapidamente a ambientes de alta pressão, navegando perfeitamente entre arquiteturas backend complexas e demandas urgentes no frontend para garantir que a equipe sempre entregue resultados."
   }
 }

@@ -1,7 +1,11 @@
 {
-  "description": "Full-stack Software Engineer passionate about building efficient, scalable, and user-friendly applications. With a solid foundation in front-end development using TypeScript and PHP, I’m actively deepening my expertise in backend engineering with Go. Continuously studying and improving both front-end and back-end technologies, I thrive on challenges and enjoy transforming complex problems into clean, maintainable solutions.",
-  "aboutProject": "You can see more of my work on my profile at",
+  "description": "Senior Full-Stack Software Engineer with 6+ years of experience designing, modernising, and scaling high-volume distributed systems. I specialise in Software Architecture, DDD, and SOLID principles to build resilient event-driven microservices using PHP, Node.js, React.js, and Next.js.",
+  "aboutProject": "Explore the source code for this portfolio and my other work on",
   "resume": {
     "error": "PDF not found, please try again later"
+  },
+  "joker": {
+    "title": "Cross-Functional Wildcard",
+    "description": "I thrive in tough projects and dynamic teams. Like a wildcard, I adapt quickly to high-pressure environments, seamlessly jumping between complex backend architectures and urgent frontend features to ensure the team consistently delivers."
   }
 }

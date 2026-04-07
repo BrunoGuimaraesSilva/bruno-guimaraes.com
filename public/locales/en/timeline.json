@@ -1,25 +1,30 @@
 {
-  "title": " My Career & Education Journey 🚀",
+  "title": "My Career & Education Journey 🚀",
   "events": [
     {
-      "title": "Software Engineer - GazinTech",
-      "date": "March 2019 - May 2024",
-      "description": "Developed and maintained scalable front-end applications using React.js, Next.js, and TypeScript. Led the migration of a legacy PHP application to React."
+      "title": "Software Engineer (Full Stack) – GazinTech",
+      "date": "August 2025 – Present",
+      "description": "After an international experience in Ireland, I returned to GazinTech with a more strategic and architecture-oriented vision, working cross-functionally across Logistics, Industry, and Wholesale domains. I became a reference for business rules and critical implementations. In recent cycles, I led the evolution of legacy cron-based systems into event-driven architectures with Apache Kafka, in addition to implementing anti-fraud solutions and resolving high-impact issues."
     },
     {
-      "title": "Postgraduate in Software Architecture and Go",
-      "date": "May 2024 - Present",
-      "description": "Currently pursuing a postgraduate degree at FullCycle College of Technology."
+      "title": "International Experience – Dublin, Ireland",
+      "date": "2024 – 2025",
+      "description": "Professional working proficiency in English (B2), working in a multicultural environment with Irish and Colombian colleagues. Participated in tech meetups focused on backend architecture and scalable distributed systems."
     },
     {
-      "title": "Trinity ISE I + Trinity ISE II",
-      "date": "June 2024 - February 2025",
-      "description": "Enrolled in an English language program at The International School of English, Dublin."
+      "title": "Postgraduate Diploma in Advanced Go Development",
+      "date": "2024",
+      "description": "Postgraduate Diploma from FullCycle College of Technology, focused on microservices, concurrency, Kubernetes, Docker, and cloud-native architecture."
     },
     {
-      "title": "Bachelor's Degree in Internet Systems Technology",
-      "date": "February 2020 - December 2022",
-      "description": "Completed bachelor's degree at Faculdade Alfa Umuarama, focusing on software development and analysis."
+      "title": "Software Engineer (Full Stack) – GazinTech",
+      "date": "March 2019 – May 2024",
+      "description": "Maintained and scaled ERP and B2B platforms processing over R$7 million in daily transactions. Migrated legacy PHP 7.4 monoliths to modular PHP 8.1 services and Nest.js microservices using DDD, SOLID, and Hexagonal Architecture."
+    },
+    {
+      "title": "BSc (Hons) in Internet Systems Technology",
+      "date": "February 2020 – December 2022",
+      "description": "Completed degree at Faculdade Alfa Umuarama, focusing on software engineering, web development, databases, and information security."
     }
   ]
 }

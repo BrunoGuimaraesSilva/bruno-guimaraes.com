@@ -1,6 +1,13 @@
 {
     "title": "Contact",
     "description": "Send me an email",
+    "v2": {
+        "heading1": "Let's build something",
+        "heading2": "great together.",
+        "subtitle": "Open to remote opportunities, international projects and collaboration. Send me a message — I reply fast.",
+        "availability": "Available for new opportunities",
+        "location": "Remote-first · Open to relocation · Brazil (UTC-3)"
+    },
     "form": {
         "name": "Your Name",
         "email": "Your Email",
@@ -16,5 +23,4 @@
     },
     "button": "Send",
     "success": "Email sent successfully"
-    
 }

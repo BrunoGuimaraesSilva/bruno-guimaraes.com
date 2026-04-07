@@ -2,24 +2,29 @@
   "title": "Minha Jornada Profissional e Educacional 🚀",
   "events": [
     {
-      "title": "Engenheiro de Software - GazinTech",
-      "date": "Março de 2019 - Maio de 2024",
-      "description": "Desenvolvi e mantive aplicações front-end escaláveis usando React.js, Next.js e TypeScript. Liderei a migração de uma aplicação legada em PHP para React."
+      "title": "Engenheiro de Software (Full Stack) – GazinTech",
+      "date": "Agosto de 2025 – Presente",
+      "description": "Após experiência internacional na Irlanda, retornei à GazinTech com uma visão mais estratégica e orientada a arquitetura, atuando de forma transversal entre os domínios de Logística, Indústria e Atacado. Tornei-me referência em regras de negócio e implementações críticas. Nos ciclos mais recentes, conduzi a evolução de sistemas legados baseados em cron para arquiteturas orientadas a eventos com Kafka, além da implementação de soluções de antifraude e da resolução de problemas de alto impacto."
     },
     {
-      "title": "Pós-graduação em Arquitetura de Software e Go",
-      "date": "Maio de 2024 - Presente",
-      "description": "Atualmente cursando uma pós-graduação no FullCycle College of Technology."
+      "title": "Experiência Internacional – Dublin, Irlanda",
+      "date": "2024 – 2025",
+      "description": "Proficiência profissional em inglês (B2), trabalho em ambiente multicultural com colegas irlandeses e colombianos. Participação em meetups de tecnologia focados em arquitetura backend e sistemas distribuídos."
     },
     {
-      "title": "Trinity ISE I + Trinity ISE II",
-      "date": "Junho de 2024 - Fevereiro de 2025",
-      "description": "Matriculado no programa de inglês da The International School of English, Dublin."
+      "title": "Pós-graduação em Desenvolvimento Avançado com Go",
+      "date": "2024",
+      "description": "Diploma de Pós-graduação pelo FullCycle College of Technology, com foco em microsserviços, concorrência, Kubernetes, Docker e arquitetura cloud-native."
     },
     {
-      "title": "Bacharelado em Tecnologia de Sistemas para Internet",
-      "date": "Fevereiro de 2020 - Dezembro de 2022",
-      "description": "Concluí o bacharelado na Faculdade Alfa Umuarama, com foco no desenvolvimento e análise de software."
+      "title": "Engenheiro de Software (Full Stack) – GazinTech",
+      "date": "Março de 2019 – Maio de 2024",
+      "description": "Manutenção e escalamento de plataformas ERP e B2B processando mais de R$7 milhões em transações diárias. Migração de monolitos PHP 7.4 para serviços modulares PHP 8.1 e microsserviços Nest.js com DDD, SOLID e Arquitetura Hexagonal."
+    },
+    {
+      "title": "Tecnólogo em Sistemas para Internet",
+      "date": "Fevereiro de 2020 – Dezembro de 2022",
+      "description": "Concluí a graduação na Faculdade Alfa Umuarama, com foco em engenharia de software, desenvolvimento web, bancos de dados e segurança da informação."
     }
   ]
 }
